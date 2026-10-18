@@ -76,10 +76,10 @@
             this.guna2GradientPanel4.BorderRadius = 10;
             this.guna2GradientPanel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.Gray;
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(338, 10);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(504, 10);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(296, 483);
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(296, 588);
             this.guna2GradientPanel4.TabIndex = 2;
             this.guna2GradientPanel4.UseTransparentBackground = true;
             // 
@@ -93,7 +93,7 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "HomeButton";
             this.Padding = new System.Windows.Forms.Padding(10);
-            this.Size = new System.Drawing.Size(644, 503);
+            this.Size = new System.Drawing.Size(810, 608);
             this.ResumeLayout(false);
 
         }

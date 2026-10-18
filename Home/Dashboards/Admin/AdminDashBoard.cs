@@ -16,5 +16,10 @@ namespace Home.Dashboards.Admin
         {
             InitializeComponent();
         }
+
+        private void Button_Sidebarpnl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -36,10 +36,12 @@
             // BGpic
             // 
             this.BGpic.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BGpic.Image = global::Home.Properties.Resources.Background;
             this.BGpic.Location = new System.Drawing.Point(0, 0);
             this.BGpic.Name = "BGpic";
             this.BGpic.ShadowDecoration.Parent = this.BGpic;
             this.BGpic.Size = new System.Drawing.Size(800, 450);
+            this.BGpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BGpic.TabIndex = 0;
             this.BGpic.TabStop = false;
             // 

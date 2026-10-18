@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2">
-      <HintPath>..\..\..\..\..\..\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
@@ -57,11 +57,65 @@
     <Compile Include="Dashboards\Admin\AdminDashBoard.Designer.cs">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\AccountButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\AccountButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\AccountButton.Designer.cs">
+    <Compile Include="Dashboards\Admin\Buttons\AccountButton.Designer.cs">
       <DependentUpon>AccountButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButton.Designer.cs">
+      <DependentUpon>AnnouncementButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\HomeButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\HomeButton.Designer.cs">
+      <DependentUpon>HomeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\HomeownersButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\HomeownersButton.Designer.cs">
+      <DependentUpon>HomeownersButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\PaymentsButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\PaymentsButton.Designer.cs">
+      <DependentUpon>PaymentsButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\ReportsButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\Buttons\ReportsButton.Designer.cs">
+      <DependentUpon>ReportsButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\AccountButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\AccountButton.Designer.cs">
+      <DependentUpon>AccountButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\HistoryButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\HistoryButton.Designer.cs">
+      <DependentUpon>HistoryButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\PayButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\PayButton.Designer.cs">
+      <DependentUpon>PayButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\ReportButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\ReportButton.Designer.cs">
+      <DependentUpon>ReportButton.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboards\Home Owner\HODashBoard.cs">
       <SubType>Form</SubType>
@@ -69,11 +123,29 @@
     <Compile Include="Dashboards\Home Owner\HODashBoard.Designer.cs">
       <DependentUpon>HODashBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\HomeButton.cs">
+    <Compile Include="Dashboards\Home Owner\Button\HomeButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\HomeButton.Designer.cs">
+    <Compile Include="Dashboards\Home Owner\Button\HomeButton.Designer.cs">
       <DependentUpon>HomeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButton.Designer.cs">
+      <DependentUpon>ActivityButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeButton.Designer.cs">
+      <DependentUpon>HomeButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButton.Designer.cs">
+      <DependentUpon>MAdminButton.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboards\Super Admin\SuperAdminDashBoard.cs">
       <SubType>Form</SubType>
@@ -101,14 +173,56 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Dashboards\Home Owner\AccountButton.resx">
+    <EmbeddedResource Include="Dashboards\Admin\AdminDashBoard.resx">
+      <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\AccountButton.resx">
       <DependentUpon>AccountButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\AnnouncementButton.resx">
+      <DependentUpon>AnnouncementButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\HomeButton.resx">
+      <DependentUpon>HomeButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\HomeownersButton.resx">
+      <DependentUpon>HomeownersButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\PaymentsButton.resx">
+      <DependentUpon>PaymentsButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\ReportsButton.resx">
+      <DependentUpon>ReportsButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\AccountButton.resx">
+      <DependentUpon>AccountButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\HistoryButton.resx">
+      <DependentUpon>HistoryButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\PayButton.resx">
+      <DependentUpon>PayButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\ReportButton.resx">
+      <DependentUpon>ReportButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboards\Home Owner\HODashBoard.resx">
       <DependentUpon>HODashBoard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\HomeButton.resx">
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\HomeButton.resx">
       <DependentUpon>HomeButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\ActivityButton.resx">
+      <DependentUpon>ActivityButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\HomeButton.resx">
+      <DependentUpon>HomeButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\MAdminButton.resx">
+      <DependentUpon>MAdminButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Super Admin\SuperAdminDashBoard.resx">
+      <DependentUpon>SuperAdminDashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Page\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
@@ -121,17 +235,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -141,8 +256,60 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Dashboards\Admin\Buttons\" />
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\announcement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

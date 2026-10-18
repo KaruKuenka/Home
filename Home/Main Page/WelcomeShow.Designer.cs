@@ -37,6 +37,7 @@
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2CirclePictureBox1.Image = global::Home.Properties.Resources.logo;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
