@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.Button_Contentpnl = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.LogoutBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.AccountBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.AnnounceBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.HOaccBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.PaymentBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.ReportBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.HomeBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.ShowContentPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.Button_Contentpnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -56,26 +56,17 @@
             this.guna2Panel1.Size = new System.Drawing.Size(150, 601);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel2.Location = new System.Drawing.Point(150, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(8, 601);
-            this.guna2Panel2.TabIndex = 1;
-            // 
             // Button_Contentpnl
             // 
             this.Button_Contentpnl.BackColor = System.Drawing.Color.Transparent;
             this.Button_Contentpnl.BorderRadius = 10;
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton7);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton6);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton5);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton4);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton3);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton2);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton1);
+            this.Button_Contentpnl.Controls.Add(this.LogoutBtn);
+            this.Button_Contentpnl.Controls.Add(this.AccountBtn);
+            this.Button_Contentpnl.Controls.Add(this.AnnounceBtn);
+            this.Button_Contentpnl.Controls.Add(this.HOaccBtn);
+            this.Button_Contentpnl.Controls.Add(this.PaymentBtn);
+            this.Button_Contentpnl.Controls.Add(this.ReportBtn);
+            this.Button_Contentpnl.Controls.Add(this.HomeBtn);
             this.Button_Contentpnl.Controls.Add(this.guna2PictureBox1);
             this.Button_Contentpnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Button_Contentpnl.FillColor = System.Drawing.Color.SkyBlue;
@@ -88,98 +79,131 @@
             this.Button_Contentpnl.TabIndex = 1;
             this.Button_Contentpnl.UseTransparentBackground = true;
             // 
-            // guna2Panel3
+            // LogoutBtn
             // 
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(158, 0);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(826, 601);
-            this.guna2Panel3.TabIndex = 2;
+            this.LogoutBtn.BorderRadius = 10;
+            this.LogoutBtn.BorderThickness = 1;
+            this.LogoutBtn.CheckedState.Parent = this.LogoutBtn;
+            this.LogoutBtn.CustomImages.Parent = this.LogoutBtn;
+            this.LogoutBtn.FillColor = System.Drawing.Color.Transparent;
+            this.LogoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogoutBtn.HoverState.Parent = this.LogoutBtn;
+            this.LogoutBtn.Image = global::Home.Properties.Resources.logout;
+            this.LogoutBtn.Location = new System.Drawing.Point(40, 520);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.ShadowDecoration.Parent = this.LogoutBtn;
+            this.LogoutBtn.Size = new System.Drawing.Size(45, 45);
+            this.LogoutBtn.TabIndex = 14;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
             // 
-            // guna2ImageButton7
+            // AccountBtn
             // 
-            this.guna2ImageButton7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton7.CheckedState.Parent = this.guna2ImageButton7;
-            this.guna2ImageButton7.HoverState.Parent = this.guna2ImageButton7;
-            this.guna2ImageButton7.Image = global::Home.Properties.Resources.user;
-            this.guna2ImageButton7.Location = new System.Drawing.Point(40, 232);
-            this.guna2ImageButton7.Name = "guna2ImageButton7";
-            this.guna2ImageButton7.PressedState.Parent = this.guna2ImageButton7;
-            this.guna2ImageButton7.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton7.TabIndex = 7;
+            this.AccountBtn.BorderRadius = 10;
+            this.AccountBtn.BorderThickness = 1;
+            this.AccountBtn.CheckedState.Parent = this.AccountBtn;
+            this.AccountBtn.CustomImages.Parent = this.AccountBtn;
+            this.AccountBtn.FillColor = System.Drawing.Color.Transparent;
+            this.AccountBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AccountBtn.ForeColor = System.Drawing.Color.White;
+            this.AccountBtn.HoverState.Parent = this.AccountBtn;
+            this.AccountBtn.Image = global::Home.Properties.Resources.avatar;
+            this.AccountBtn.Location = new System.Drawing.Point(40, 344);
+            this.AccountBtn.Name = "AccountBtn";
+            this.AccountBtn.ShadowDecoration.Parent = this.AccountBtn;
+            this.AccountBtn.Size = new System.Drawing.Size(45, 45);
+            this.AccountBtn.TabIndex = 13;
+            this.AccountBtn.Click += new System.EventHandler(this.AccountBtn_Click);
             // 
-            // guna2ImageButton6
+            // AnnounceBtn
             // 
-            this.guna2ImageButton6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton6.CheckedState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.HoverState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Image = global::Home.Properties.Resources.announcement;
-            this.guna2ImageButton6.Location = new System.Drawing.Point(40, 288);
-            this.guna2ImageButton6.Name = "guna2ImageButton6";
-            this.guna2ImageButton6.PressedState.Parent = this.guna2ImageButton6;
-            this.guna2ImageButton6.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton6.TabIndex = 6;
+            this.AnnounceBtn.BorderRadius = 10;
+            this.AnnounceBtn.BorderThickness = 1;
+            this.AnnounceBtn.CheckedState.Parent = this.AnnounceBtn;
+            this.AnnounceBtn.CustomImages.Parent = this.AnnounceBtn;
+            this.AnnounceBtn.FillColor = System.Drawing.Color.Transparent;
+            this.AnnounceBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AnnounceBtn.ForeColor = System.Drawing.Color.White;
+            this.AnnounceBtn.HoverState.Parent = this.AnnounceBtn;
+            this.AnnounceBtn.Image = global::Home.Properties.Resources.announcement;
+            this.AnnounceBtn.Location = new System.Drawing.Point(40, 288);
+            this.AnnounceBtn.Name = "AnnounceBtn";
+            this.AnnounceBtn.ShadowDecoration.Parent = this.AnnounceBtn;
+            this.AnnounceBtn.Size = new System.Drawing.Size(45, 45);
+            this.AnnounceBtn.TabIndex = 12;
+            this.AnnounceBtn.Click += new System.EventHandler(this.AnnounceBtn_Click);
             // 
-            // guna2ImageButton5
+            // HOaccBtn
             // 
-            this.guna2ImageButton5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton5.CheckedState.Parent = this.guna2ImageButton5;
-            this.guna2ImageButton5.HoverState.Parent = this.guna2ImageButton5;
-            this.guna2ImageButton5.Image = global::Home.Properties.Resources.credit_card;
-            this.guna2ImageButton5.Location = new System.Drawing.Point(40, 176);
-            this.guna2ImageButton5.Name = "guna2ImageButton5";
-            this.guna2ImageButton5.PressedState.Parent = this.guna2ImageButton5;
-            this.guna2ImageButton5.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton5.TabIndex = 5;
+            this.HOaccBtn.BorderRadius = 10;
+            this.HOaccBtn.BorderThickness = 1;
+            this.HOaccBtn.CheckedState.Parent = this.HOaccBtn;
+            this.HOaccBtn.CustomImages.Parent = this.HOaccBtn;
+            this.HOaccBtn.FillColor = System.Drawing.Color.Transparent;
+            this.HOaccBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.HOaccBtn.ForeColor = System.Drawing.Color.White;
+            this.HOaccBtn.HoverState.Parent = this.HOaccBtn;
+            this.HOaccBtn.Image = global::Home.Properties.Resources.user;
+            this.HOaccBtn.Location = new System.Drawing.Point(40, 232);
+            this.HOaccBtn.Name = "HOaccBtn";
+            this.HOaccBtn.ShadowDecoration.Parent = this.HOaccBtn;
+            this.HOaccBtn.Size = new System.Drawing.Size(45, 45);
+            this.HOaccBtn.TabIndex = 11;
+            this.HOaccBtn.Click += new System.EventHandler(this.HOaccBtn_Click);
             // 
-            // guna2ImageButton4
+            // PaymentBtn
             // 
-            this.guna2ImageButton4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.guna2ImageButton4.CheckedState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.HoverState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.Image = global::Home.Properties.Resources.logout;
-            this.guna2ImageButton4.Location = new System.Drawing.Point(40, 521);
-            this.guna2ImageButton4.Name = "guna2ImageButton4";
-            this.guna2ImageButton4.PressedState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton4.TabIndex = 4;
+            this.PaymentBtn.BorderRadius = 10;
+            this.PaymentBtn.BorderThickness = 1;
+            this.PaymentBtn.CheckedState.Parent = this.PaymentBtn;
+            this.PaymentBtn.CustomImages.Parent = this.PaymentBtn;
+            this.PaymentBtn.FillColor = System.Drawing.Color.Transparent;
+            this.PaymentBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PaymentBtn.ForeColor = System.Drawing.Color.White;
+            this.PaymentBtn.HoverState.Parent = this.PaymentBtn;
+            this.PaymentBtn.Image = global::Home.Properties.Resources.credit_card;
+            this.PaymentBtn.Location = new System.Drawing.Point(40, 176);
+            this.PaymentBtn.Name = "PaymentBtn";
+            this.PaymentBtn.ShadowDecoration.Parent = this.PaymentBtn;
+            this.PaymentBtn.Size = new System.Drawing.Size(45, 45);
+            this.PaymentBtn.TabIndex = 10;
+            this.PaymentBtn.Click += new System.EventHandler(this.PaymentBtn_Click);
             // 
-            // guna2ImageButton3
+            // ReportBtn
             // 
-            this.guna2ImageButton3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Image = global::Home.Properties.Resources.chat;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(40, 120);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton3.TabIndex = 3;
+            this.ReportBtn.BorderRadius = 10;
+            this.ReportBtn.BorderThickness = 1;
+            this.ReportBtn.CheckedState.Parent = this.ReportBtn;
+            this.ReportBtn.CustomImages.Parent = this.ReportBtn;
+            this.ReportBtn.FillColor = System.Drawing.Color.Transparent;
+            this.ReportBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ReportBtn.ForeColor = System.Drawing.Color.White;
+            this.ReportBtn.HoverState.Parent = this.ReportBtn;
+            this.ReportBtn.Image = global::Home.Properties.Resources.chat;
+            this.ReportBtn.Location = new System.Drawing.Point(40, 120);
+            this.ReportBtn.Name = "ReportBtn";
+            this.ReportBtn.ShadowDecoration.Parent = this.ReportBtn;
+            this.ReportBtn.Size = new System.Drawing.Size(45, 45);
+            this.ReportBtn.TabIndex = 9;
+            this.ReportBtn.Click += new System.EventHandler(this.ReportBtn_Click);
             // 
-            // guna2ImageButton2
+            // HomeBtn
             // 
-            this.guna2ImageButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Image = global::Home.Properties.Resources.avatar;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(40, 344);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton2.TabIndex = 2;
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Image = global::Home.Properties.Resources.house;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(40, 64);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton1.TabIndex = 1;
+            this.HomeBtn.BorderRadius = 10;
+            this.HomeBtn.BorderThickness = 1;
+            this.HomeBtn.CheckedState.Parent = this.HomeBtn;
+            this.HomeBtn.CustomImages.Parent = this.HomeBtn;
+            this.HomeBtn.FillColor = System.Drawing.Color.Transparent;
+            this.HomeBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.HomeBtn.ForeColor = System.Drawing.Color.White;
+            this.HomeBtn.HoverState.Parent = this.HomeBtn;
+            this.HomeBtn.Image = global::Home.Properties.Resources.house;
+            this.HomeBtn.Location = new System.Drawing.Point(40, 64);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.ShadowDecoration.Parent = this.HomeBtn;
+            this.HomeBtn.Size = new System.Drawing.Size(45, 45);
+            this.HomeBtn.TabIndex = 8;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
             // guna2PictureBox1
             // 
@@ -193,14 +217,34 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel2.Location = new System.Drawing.Point(150, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(8, 601);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // ShowContentPnl
+            // 
+            this.ShowContentPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ShowContentPnl.Location = new System.Drawing.Point(158, 0);
+            this.ShowContentPnl.Name = "ShowContentPnl";
+            this.ShowContentPnl.ShadowDecoration.Parent = this.ShowContentPnl;
+            this.ShowContentPnl.Size = new System.Drawing.Size(826, 601);
+            this.ShowContentPnl.TabIndex = 2;
+            // 
             // AdminDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(984, 601);
-            this.Controls.Add(this.guna2Panel3);
+            this.Controls.Add(this.ShowContentPnl);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AdminDashBoard";
             this.Text = "AdminDashBoard";
             this.guna2Panel1.ResumeLayout(false);
@@ -215,14 +259,14 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2GradientPanel Button_Contentpnl;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton6;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton5;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton7;
+        private Guna.UI2.WinForms.Guna2Panel ShowContentPnl;
+        private Guna.UI2.WinForms.Guna2Button HomeBtn;
+        private Guna.UI2.WinForms.Guna2Button ReportBtn;
+        private Guna.UI2.WinForms.Guna2Button LogoutBtn;
+        private Guna.UI2.WinForms.Guna2Button AccountBtn;
+        private Guna.UI2.WinForms.Guna2Button AnnounceBtn;
+        private Guna.UI2.WinForms.Guna2Button HOaccBtn;
+        private Guna.UI2.WinForms.Guna2Button PaymentBtn;
     }
 }

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.Button_Contentpnl = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.LogoutBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.ActivityBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.HomeBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.AdAccBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.ShowContentPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.Button_Contentpnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -53,32 +53,14 @@
             this.guna2Panel1.Size = new System.Drawing.Size(150, 601);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel2.Location = new System.Drawing.Point(150, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(10, 601);
-            this.guna2Panel2.TabIndex = 1;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(150, 0);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(834, 601);
-            this.guna2Panel3.TabIndex = 1;
-            // 
             // Button_Contentpnl
             // 
             this.Button_Contentpnl.BackColor = System.Drawing.Color.Transparent;
             this.Button_Contentpnl.BorderRadius = 10;
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton4);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton3);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton2);
-            this.Button_Contentpnl.Controls.Add(this.guna2ImageButton1);
+            this.Button_Contentpnl.Controls.Add(this.LogoutBtn);
+            this.Button_Contentpnl.Controls.Add(this.ActivityBtn);
+            this.Button_Contentpnl.Controls.Add(this.HomeBtn);
+            this.Button_Contentpnl.Controls.Add(this.AdAccBtn);
             this.Button_Contentpnl.Controls.Add(this.guna2PictureBox1);
             this.Button_Contentpnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Button_Contentpnl.FillColor = System.Drawing.Color.SkyBlue;
@@ -91,53 +73,77 @@
             this.Button_Contentpnl.TabIndex = 2;
             this.Button_Contentpnl.UseTransparentBackground = true;
             // 
-            // guna2ImageButton4
+            // LogoutBtn
             // 
-            this.guna2ImageButton4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.guna2ImageButton4.CheckedState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.HoverState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.Image = global::Home.Properties.Resources.logout;
-            this.guna2ImageButton4.Location = new System.Drawing.Point(40, 521);
-            this.guna2ImageButton4.Name = "guna2ImageButton4";
-            this.guna2ImageButton4.PressedState.Parent = this.guna2ImageButton4;
-            this.guna2ImageButton4.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton4.TabIndex = 4;
+            this.LogoutBtn.BorderRadius = 10;
+            this.LogoutBtn.BorderThickness = 1;
+            this.LogoutBtn.CheckedState.Parent = this.LogoutBtn;
+            this.LogoutBtn.CustomImages.Parent = this.LogoutBtn;
+            this.LogoutBtn.FillColor = System.Drawing.Color.Transparent;
+            this.LogoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.LogoutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogoutBtn.HoverState.Parent = this.LogoutBtn;
+            this.LogoutBtn.Image = global::Home.Properties.Resources.logout;
+            this.LogoutBtn.Location = new System.Drawing.Point(40, 520);
+            this.LogoutBtn.Name = "LogoutBtn";
+            this.LogoutBtn.ShadowDecoration.Parent = this.LogoutBtn;
+            this.LogoutBtn.Size = new System.Drawing.Size(45, 45);
+            this.LogoutBtn.TabIndex = 1;
+            this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
             // 
-            // guna2ImageButton3
+            // ActivityBtn
             // 
-            this.guna2ImageButton3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Image = global::Home.Properties.Resources.activity;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(40, 176);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton3.TabIndex = 3;
+            this.ActivityBtn.BorderRadius = 10;
+            this.ActivityBtn.BorderThickness = 1;
+            this.ActivityBtn.CheckedState.Parent = this.ActivityBtn;
+            this.ActivityBtn.CustomImages.Parent = this.ActivityBtn;
+            this.ActivityBtn.FillColor = System.Drawing.Color.Transparent;
+            this.ActivityBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ActivityBtn.ForeColor = System.Drawing.Color.White;
+            this.ActivityBtn.HoverState.Parent = this.ActivityBtn;
+            this.ActivityBtn.Image = global::Home.Properties.Resources.activity;
+            this.ActivityBtn.Location = new System.Drawing.Point(40, 184);
+            this.ActivityBtn.Name = "ActivityBtn";
+            this.ActivityBtn.ShadowDecoration.Parent = this.ActivityBtn;
+            this.ActivityBtn.Size = new System.Drawing.Size(45, 45);
+            this.ActivityBtn.TabIndex = 3;
+            this.ActivityBtn.Click += new System.EventHandler(this.ActivityBtn_Click);
             // 
-            // guna2ImageButton2
+            // HomeBtn
             // 
-            this.guna2ImageButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Image = global::Home.Properties.Resources.user;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(40, 120);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton2.TabIndex = 2;
+            this.HomeBtn.BorderRadius = 10;
+            this.HomeBtn.BorderThickness = 1;
+            this.HomeBtn.CheckedState.Parent = this.HomeBtn;
+            this.HomeBtn.CustomImages.Parent = this.HomeBtn;
+            this.HomeBtn.FillColor = System.Drawing.Color.Transparent;
+            this.HomeBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.HomeBtn.ForeColor = System.Drawing.Color.White;
+            this.HomeBtn.HoverState.Parent = this.HomeBtn;
+            this.HomeBtn.Image = global::Home.Properties.Resources.house;
+            this.HomeBtn.Location = new System.Drawing.Point(40, 72);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.ShadowDecoration.Parent = this.HomeBtn;
+            this.HomeBtn.Size = new System.Drawing.Size(45, 45);
+            this.HomeBtn.TabIndex = 2;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
-            // guna2ImageButton1
+            // AdAccBtn
             // 
-            this.guna2ImageButton1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Image = global::Home.Properties.Resources.house;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(40, 64);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(45, 45);
-            this.guna2ImageButton1.TabIndex = 1;
+            this.AdAccBtn.BorderRadius = 10;
+            this.AdAccBtn.BorderThickness = 1;
+            this.AdAccBtn.CheckedState.Parent = this.AdAccBtn;
+            this.AdAccBtn.CustomImages.Parent = this.AdAccBtn;
+            this.AdAccBtn.FillColor = System.Drawing.Color.Transparent;
+            this.AdAccBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AdAccBtn.ForeColor = System.Drawing.Color.White;
+            this.AdAccBtn.HoverState.Parent = this.AdAccBtn;
+            this.AdAccBtn.Image = global::Home.Properties.Resources.user;
+            this.AdAccBtn.Location = new System.Drawing.Point(40, 128);
+            this.AdAccBtn.Name = "AdAccBtn";
+            this.AdAccBtn.ShadowDecoration.Parent = this.AdAccBtn;
+            this.AdAccBtn.Size = new System.Drawing.Size(45, 45);
+            this.AdAccBtn.TabIndex = 0;
+            this.AdAccBtn.Click += new System.EventHandler(this.AdAccBtn_Click);
             // 
             // guna2PictureBox1
             // 
@@ -151,14 +157,33 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel2.Location = new System.Drawing.Point(150, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(10, 601);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // ShowContentPnl
+            // 
+            this.ShowContentPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ShowContentPnl.Location = new System.Drawing.Point(150, 0);
+            this.ShowContentPnl.Name = "ShowContentPnl";
+            this.ShowContentPnl.ShadowDecoration.Parent = this.ShowContentPnl;
+            this.ShowContentPnl.Size = new System.Drawing.Size(834, 601);
+            this.ShowContentPnl.TabIndex = 1;
+            // 
             // SuperAdminDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 601);
             this.Controls.Add(this.guna2Panel2);
-            this.Controls.Add(this.guna2Panel3);
+            this.Controls.Add(this.ShowContentPnl);
             this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "SuperAdminDashBoard";
             this.Text = "SuperAdminDashBoard";
             this.guna2Panel1.ResumeLayout(false);
@@ -172,12 +197,12 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel ShowContentPnl;
         private Guna.UI2.WinForms.Guna2GradientPanel Button_Contentpnl;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2Button AdAccBtn;
+        private Guna.UI2.WinForms.Guna2Button LogoutBtn;
+        private Guna.UI2.WinForms.Guna2Button ActivityBtn;
+        private Guna.UI2.WinForms.Guna2Button HomeBtn;
     }
 }
