@@ -1,4 +1,6 @@
-﻿using Home.Dashboards.Home_Owner;
+﻿using Home.Dashboards.Admin;
+using Home.Dashboards.Home_Owner;
+using Home.Dashboards.Super_Admin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +18,8 @@ namespace Home.Main_Page
         private WelcomeShow welcomeShow;
         private LoginShow loginshow;
         private HODashBoard homeowner;
+        private AdminDashBoard admin;
+        private SuperAdminDashBoard superadmin;
 
         public LoginPage()
         {
@@ -26,8 +30,12 @@ namespace Home.Main_Page
             welcomeShow = new WelcomeShow();
             loginshow = new LoginShow();
             homeowner = new HODashBoard();
+            admin = new AdminDashBoard();
+            superadmin = new SuperAdminDashBoard();
 
             homeowner.Show();
+            admin.Show();
+            superadmin.Show();
 
             welcomeShow.Dock = DockStyle.Fill;
             loginshow.Dock = DockStyle.Fill;
