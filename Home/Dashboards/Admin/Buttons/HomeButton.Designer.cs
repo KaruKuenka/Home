@@ -35,9 +35,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.PaidCounterLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.UnpaidCounterLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -48,233 +50,69 @@
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel7 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.HOCounterLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.guna2GradientPanel3.SuspendLayout();
             this.guna2GradientPanel4.SuspendLayout();
             this.guna2GradientPanel5.SuspendLayout();
             this.guna2GradientPanel6.SuspendLayout();
-            this.guna2GradientPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
+            this.guna2GradientPanel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.Controls.Add(this.PaidCounterLbl);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GradientPanel1.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 104);
+            this.guna2GradientPanel1.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(43, 128);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(175, 85);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(233, 105);
             this.guna2GradientPanel1.TabIndex = 0;
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.Controls.Add(this.guna2DataGridView1);
-            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel2.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(32, 208);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(372, 169);
-            this.guna2GradientPanel2.TabIndex = 1;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(16, 16);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(75, 15);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Paid this month";
             // 
             // PaidCounterLbl
             // 
             this.PaidCounterLbl.BackColor = System.Drawing.Color.Transparent;
             this.PaidCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaidCounterLbl.Location = new System.Drawing.Point(16, 48);
+            this.PaidCounterLbl.Location = new System.Drawing.Point(21, 59);
+            this.PaidCounterLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PaidCounterLbl.Name = "PaidCounterLbl";
-            this.PaidCounterLbl.Size = new System.Drawing.Size(30, 26);
+            this.PaidCounterLbl.Size = new System.Drawing.Size(38, 31);
             this.PaidCounterLbl.TabIndex = 1;
             this.PaidCounterLbl.Text = "[N]";
             // 
-            // guna2GradientPanel3
+            // guna2HtmlLabel1
             // 
-            this.guna2GradientPanel3.Controls.Add(this.UnpaidCounterLbl);
-            this.guna2GradientPanel3.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2GradientPanel3.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel3.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(232, 104);
-            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
-            this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(175, 85);
-            this.guna2GradientPanel3.TabIndex = 2;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(21, 20);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(93, 18);
+            this.guna2HtmlLabel1.TabIndex = 0;
+            this.guna2HtmlLabel1.Text = "Paid this month";
             // 
-            // UnpaidCounterLbl
+            // guna2GradientPanel2
             // 
-            this.UnpaidCounterLbl.BackColor = System.Drawing.Color.Transparent;
-            this.UnpaidCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UnpaidCounterLbl.Location = new System.Drawing.Point(16, 48);
-            this.UnpaidCounterLbl.Name = "UnpaidCounterLbl";
-            this.UnpaidCounterLbl.Size = new System.Drawing.Size(30, 26);
-            this.UnpaidCounterLbl.TabIndex = 1;
-            this.UnpaidCounterLbl.Text = "[N]";
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(16, 16);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(37, 15);
-            this.guna2HtmlLabel3.TabIndex = 0;
-            this.guna2HtmlLabel3.Text = "Unpaid";
-            // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.Controls.Add(this.ReportCounterLbl);
-            this.guna2GradientPanel4.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2GradientPanel4.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel4.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(416, 104);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(175, 85);
-            this.guna2GradientPanel4.TabIndex = 2;
-            // 
-            // ReportCounterLbl
-            // 
-            this.ReportCounterLbl.BackColor = System.Drawing.Color.Transparent;
-            this.ReportCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReportCounterLbl.Location = new System.Drawing.Point(16, 48);
-            this.ReportCounterLbl.Name = "ReportCounterLbl";
-            this.ReportCounterLbl.Size = new System.Drawing.Size(30, 26);
-            this.ReportCounterLbl.TabIndex = 1;
-            this.ReportCounterLbl.Text = "[N]";
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(16, 16);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(64, 15);
-            this.guna2HtmlLabel5.TabIndex = 0;
-            this.guna2HtmlLabel5.Text = "Open reports";
-            // 
-            // guna2GradientPanel5
-            // 
-            this.guna2GradientPanel5.Controls.Add(this.guna2HtmlLabel6);
-            this.guna2GradientPanel5.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2GradientPanel5.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel5.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel5.Location = new System.Drawing.Point(608, 104);
-            this.guna2GradientPanel5.Name = "guna2GradientPanel5";
-            this.guna2GradientPanel5.ShadowDecoration.Parent = this.guna2GradientPanel5;
-            this.guna2GradientPanel5.Size = new System.Drawing.Size(175, 85);
-            this.guna2GradientPanel5.TabIndex = 2;
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(16, 48);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(30, 26);
-            this.guna2HtmlLabel6.TabIndex = 1;
-            this.guna2HtmlLabel6.Text = "[N]";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(16, 16);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(75, 15);
-            this.guna2HtmlLabel7.TabIndex = 0;
-            this.guna2HtmlLabel7.Text = "Paid this month";
-            // 
-            // guna2GradientPanel6
-            // 
-            this.guna2GradientPanel6.Controls.Add(this.guna2DataGridView2);
-            this.guna2GradientPanel6.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2GradientPanel6.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel6.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel6.Location = new System.Drawing.Point(416, 208);
-            this.guna2GradientPanel6.Name = "guna2GradientPanel6";
-            this.guna2GradientPanel6.ShadowDecoration.Parent = this.guna2GradientPanel6;
-            this.guna2GradientPanel6.Size = new System.Drawing.Size(372, 169);
-            this.guna2GradientPanel6.TabIndex = 2;
-            // 
-            // guna2GradientPanel7
-            // 
-            this.guna2GradientPanel7.Controls.Add(this.HOCounterLbl);
-            this.guna2GradientPanel7.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2GradientPanel7.FillColor = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel7.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
-            this.guna2GradientPanel7.Location = new System.Drawing.Point(608, 104);
-            this.guna2GradientPanel7.Name = "guna2GradientPanel7";
-            this.guna2GradientPanel7.ShadowDecoration.Parent = this.guna2GradientPanel7;
-            this.guna2GradientPanel7.Size = new System.Drawing.Size(175, 85);
-            this.guna2GradientPanel7.TabIndex = 2;
-            // 
-            // HOCounterLbl
-            // 
-            this.HOCounterLbl.BackColor = System.Drawing.Color.Transparent;
-            this.HOCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HOCounterLbl.Location = new System.Drawing.Point(16, 48);
-            this.HOCounterLbl.Name = "HOCounterLbl";
-            this.HOCounterLbl.Size = new System.Drawing.Size(30, 26);
-            this.HOCounterLbl.TabIndex = 1;
-            this.HOCounterLbl.Text = "[N]";
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(16, 16);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(65, 15);
-            this.guna2HtmlLabel9.TabIndex = 0;
-            this.guna2HtmlLabel9.Text = "Homeowners";
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(32, 40);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(156, 26);
-            this.guna2HtmlLabel10.TabIndex = 9;
-            this.guna2HtmlLabel10.Text = "Admin Overview";
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(8, 8);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(123, 22);
-            this.guna2HtmlLabel2.TabIndex = 1;
-            this.guna2HtmlLabel2.Text = "Latest Reports";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(8, 8);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(149, 22);
-            this.guna2HtmlLabel4.TabIndex = 2;
-            this.guna2HtmlLabel4.Text = "Unpaid this Month";
+            this.guna2GradientPanel2.Controls.Add(this.guna2DataGridView1);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2GradientPanel2.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(43, 256);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(496, 208);
+            this.guna2GradientPanel2.TabIndex = 1;
             // 
             // guna2DataGridView1
             // 
@@ -293,7 +131,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.guna2DataGridView1.ColumnHeadersHeight = 4;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -304,11 +142,13 @@
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(8, 32);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(11, 39);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowHeadersWidth = 51;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(352, 128);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(469, 158);
             this.guna2DataGridView1.TabIndex = 2;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -322,7 +162,7 @@
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
             this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
@@ -332,6 +172,132 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(11, 10);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(142, 27);
+            this.guna2HtmlLabel2.TabIndex = 1;
+            this.guna2HtmlLabel2.Text = "Latest Reports";
+            // 
+            // guna2GradientPanel3
+            // 
+            this.guna2GradientPanel3.Controls.Add(this.UnpaidCounterLbl);
+            this.guna2GradientPanel3.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2GradientPanel3.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel3.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(309, 128);
+            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
+            this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(233, 105);
+            this.guna2GradientPanel3.TabIndex = 2;
+            // 
+            // UnpaidCounterLbl
+            // 
+            this.UnpaidCounterLbl.BackColor = System.Drawing.Color.Transparent;
+            this.UnpaidCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UnpaidCounterLbl.Location = new System.Drawing.Point(21, 59);
+            this.UnpaidCounterLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UnpaidCounterLbl.Name = "UnpaidCounterLbl";
+            this.UnpaidCounterLbl.Size = new System.Drawing.Size(38, 31);
+            this.UnpaidCounterLbl.TabIndex = 1;
+            this.UnpaidCounterLbl.Text = "[N]";
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(21, 20);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(47, 18);
+            this.guna2HtmlLabel3.TabIndex = 0;
+            this.guna2HtmlLabel3.Text = "Unpaid";
+            // 
+            // guna2GradientPanel4
+            // 
+            this.guna2GradientPanel4.Controls.Add(this.ReportCounterLbl);
+            this.guna2GradientPanel4.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2GradientPanel4.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel4.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(555, 128);
+            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
+            this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(233, 105);
+            this.guna2GradientPanel4.TabIndex = 2;
+            // 
+            // ReportCounterLbl
+            // 
+            this.ReportCounterLbl.BackColor = System.Drawing.Color.Transparent;
+            this.ReportCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReportCounterLbl.Location = new System.Drawing.Point(21, 59);
+            this.ReportCounterLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReportCounterLbl.Name = "ReportCounterLbl";
+            this.ReportCounterLbl.Size = new System.Drawing.Size(38, 31);
+            this.ReportCounterLbl.TabIndex = 1;
+            this.ReportCounterLbl.Text = "[N]";
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(21, 20);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(81, 18);
+            this.guna2HtmlLabel5.TabIndex = 0;
+            this.guna2HtmlLabel5.Text = "Open reports";
+            // 
+            // guna2GradientPanel5
+            // 
+            this.guna2GradientPanel5.Controls.Add(this.guna2HtmlLabel6);
+            this.guna2GradientPanel5.Controls.Add(this.guna2HtmlLabel7);
+            this.guna2GradientPanel5.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2GradientPanel5.FillColor2 = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2GradientPanel5.Location = new System.Drawing.Point(811, 128);
+            this.guna2GradientPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel5.Name = "guna2GradientPanel5";
+            this.guna2GradientPanel5.ShadowDecoration.Parent = this.guna2GradientPanel5;
+            this.guna2GradientPanel5.Size = new System.Drawing.Size(233, 105);
+            this.guna2GradientPanel5.TabIndex = 2;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(21, 59);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(38, 31);
+            this.guna2HtmlLabel6.TabIndex = 1;
+            this.guna2HtmlLabel6.Text = "[N]";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(21, 20);
+            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(93, 18);
+            this.guna2HtmlLabel7.TabIndex = 0;
+            this.guna2HtmlLabel7.Text = "Paid this month";
+            // 
+            // guna2GradientPanel6
+            // 
+            this.guna2GradientPanel6.Controls.Add(this.guna2DataGridView2);
+            this.guna2GradientPanel6.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2GradientPanel6.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel6.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel6.Location = new System.Drawing.Point(555, 256);
+            this.guna2GradientPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel6.Name = "guna2GradientPanel6";
+            this.guna2GradientPanel6.ShadowDecoration.Parent = this.guna2GradientPanel6;
+            this.guna2GradientPanel6.Size = new System.Drawing.Size(496, 208);
+            this.guna2GradientPanel6.TabIndex = 2;
             // 
             // guna2DataGridView2
             // 
@@ -361,11 +327,13 @@
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle6;
             this.guna2DataGridView2.EnableHeadersVisualStyles = false;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(8, 32);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(11, 39);
+            this.guna2DataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.RowHeadersVisible = false;
+            this.guna2DataGridView2.RowHeadersWidth = 51;
             this.guna2DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(352, 128);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(469, 158);
             this.guna2DataGridView2.TabIndex = 3;
             this.guna2DataGridView2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -390,9 +358,65 @@
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(11, 10);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(177, 27);
+            this.guna2HtmlLabel4.TabIndex = 2;
+            this.guna2HtmlLabel4.Text = "Unpaid this Month";
+            // 
+            // guna2GradientPanel7
+            // 
+            this.guna2GradientPanel7.Controls.Add(this.HOCounterLbl);
+            this.guna2GradientPanel7.Controls.Add(this.guna2HtmlLabel9);
+            this.guna2GradientPanel7.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel7.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel7.Location = new System.Drawing.Point(811, 128);
+            this.guna2GradientPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel7.Name = "guna2GradientPanel7";
+            this.guna2GradientPanel7.ShadowDecoration.Parent = this.guna2GradientPanel7;
+            this.guna2GradientPanel7.Size = new System.Drawing.Size(233, 105);
+            this.guna2GradientPanel7.TabIndex = 2;
+            // 
+            // HOCounterLbl
+            // 
+            this.HOCounterLbl.BackColor = System.Drawing.Color.Transparent;
+            this.HOCounterLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HOCounterLbl.Location = new System.Drawing.Point(21, 59);
+            this.HOCounterLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HOCounterLbl.Name = "HOCounterLbl";
+            this.HOCounterLbl.Size = new System.Drawing.Size(38, 31);
+            this.HOCounterLbl.TabIndex = 1;
+            this.HOCounterLbl.Text = "[N]";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(21, 20);
+            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(83, 18);
+            this.guna2HtmlLabel9.TabIndex = 0;
+            this.guna2HtmlLabel9.Text = "Homeowners";
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(43, 49);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(192, 31);
+            this.guna2HtmlLabel10.TabIndex = 9;
+            this.guna2HtmlLabel10.Text = "Admin Overview";
+            // 
             // HomeButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2HtmlLabel10);
             this.Controls.Add(this.guna2GradientPanel6);
@@ -402,12 +426,14 @@
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeButton";
-            this.Size = new System.Drawing.Size(810, 608);
+            this.Size = new System.Drawing.Size(1080, 748);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.guna2GradientPanel3.ResumeLayout(false);
             this.guna2GradientPanel3.PerformLayout();
             this.guna2GradientPanel4.ResumeLayout(false);
@@ -416,10 +442,9 @@
             this.guna2GradientPanel5.PerformLayout();
             this.guna2GradientPanel6.ResumeLayout(false);
             this.guna2GradientPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
             this.guna2GradientPanel7.ResumeLayout(false);
             this.guna2GradientPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

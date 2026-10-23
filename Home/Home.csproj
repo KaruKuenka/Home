@@ -153,6 +153,7 @@
     <Compile Include="Dashboards\Super Admin\SuperAdminDashBoard.Designer.cs">
       <DependentUpon>SuperAdminDashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Main Page\LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
