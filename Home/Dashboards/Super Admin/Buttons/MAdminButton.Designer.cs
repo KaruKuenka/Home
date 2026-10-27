@@ -62,6 +62,7 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.BorderRadius = 20;
             this.guna2GradientPanel1.Controls.Add(this.guna2TileButton1);
             this.guna2GradientPanel1.Controls.Add(this.guna2TextBox3);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel7);
@@ -72,8 +73,8 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2TextBox1);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel1.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightCyan;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 96);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
@@ -86,7 +87,7 @@
             this.guna2TileButton1.BorderRadius = 10;
             this.guna2TileButton1.CheckedState.Parent = this.guna2TileButton1;
             this.guna2TileButton1.CustomImages.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.FillColor = System.Drawing.Color.RoyalBlue;
+            this.guna2TileButton1.FillColor = System.Drawing.Color.Black;
             this.guna2TileButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
             this.guna2TileButton1.HoverState.Parent = this.guna2TileButton1;
@@ -233,12 +234,13 @@
             // 
             // guna2GradientPanel2
             // 
+            this.guna2GradientPanel2.BorderRadius = 20;
             this.guna2GradientPanel2.Controls.Add(this.guna2Button1);
             this.guna2GradientPanel2.Controls.Add(this.guna2GradientTileButton1);
             this.guna2GradientPanel2.Controls.Add(this.dataGridView1);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2GradientPanel2.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.LightCyan;
             this.guna2GradientPanel2.Location = new System.Drawing.Point(432, 96);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
@@ -251,7 +253,7 @@
             this.guna2Button1.BorderRadius = 10;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.RoyalBlue;
+            this.guna2Button1.FillColor = System.Drawing.Color.Black;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
@@ -305,6 +307,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2HtmlLabel1);

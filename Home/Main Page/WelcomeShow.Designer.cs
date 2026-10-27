@@ -43,7 +43,7 @@
             this.ExitBtn.ForeColor = System.Drawing.Color.White;
             this.ExitBtn.HoverState.Parent = this.ExitBtn;
             this.ExitBtn.Location = new System.Drawing.Point(40, 264);
-            this.ExitBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ExitBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.ShadowDecoration.Parent = this.ExitBtn;
             this.ExitBtn.Size = new System.Drawing.Size(240, 55);
@@ -63,7 +63,7 @@
             this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.HoverState.Parent = this.LoginBtn;
             this.LoginBtn.Location = new System.Drawing.Point(40, 192);
-            this.LoginBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginBtn.Margin = new System.Windows.Forms.Padding(4);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.ShadowDecoration.Parent = this.LoginBtn;
             this.LoginBtn.Size = new System.Drawing.Size(240, 55);
@@ -76,10 +76,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.ExitBtn);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "WelcomeShow";
             this.Size = new System.Drawing.Size(331, 554);
             this.ResumeLayout(false);

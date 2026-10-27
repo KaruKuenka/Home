@@ -53,7 +53,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(44, 79);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(188, 31);
             this.guna2HtmlLabel1.TabIndex = 8;
@@ -66,10 +66,10 @@
             this.guna2GradientPanel2.Controls.Add(this.AnnounceDG);
             this.guna2GradientPanel2.Controls.Add(this.DelSelBtn);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2GradientPanel2.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.LightCyan;
             this.guna2GradientPanel2.Location = new System.Drawing.Point(556, 148);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
             this.guna2GradientPanel2.Size = new System.Drawing.Size(480, 423);
@@ -105,7 +105,7 @@
             this.AnnounceDG.EnableHeadersVisualStyles = false;
             this.AnnounceDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.AnnounceDG.Location = new System.Drawing.Point(21, 49);
-            this.AnnounceDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AnnounceDG.Margin = new System.Windows.Forms.Padding(4);
             this.AnnounceDG.Name = "AnnounceDG";
             this.AnnounceDG.RowHeadersVisible = false;
             this.AnnounceDG.RowHeadersWidth = 51;
@@ -140,15 +140,16 @@
             this.DelSelBtn.BorderRadius = 10;
             this.DelSelBtn.CheckedState.Parent = this.DelSelBtn;
             this.DelSelBtn.CustomImages.Parent = this.DelSelBtn;
-            this.DelSelBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DelSelBtn.FillColor = System.Drawing.Color.Black;
+            this.DelSelBtn.FillColor2 = System.Drawing.Color.Black;
             this.DelSelBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DelSelBtn.ForeColor = System.Drawing.Color.White;
             this.DelSelBtn.HoverState.Parent = this.DelSelBtn;
             this.DelSelBtn.Location = new System.Drawing.Point(21, 246);
-            this.DelSelBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DelSelBtn.Margin = new System.Windows.Forms.Padding(4);
             this.DelSelBtn.Name = "DelSelBtn";
             this.DelSelBtn.ShadowDecoration.Parent = this.DelSelBtn;
-            this.DelSelBtn.Size = new System.Drawing.Size(187, 49);
+            this.DelSelBtn.Size = new System.Drawing.Size(139, 50);
             this.DelSelBtn.TabIndex = 9;
             this.DelSelBtn.Text = "Delete Selected";
             // 
@@ -157,7 +158,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(21, 20);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(70, 27);
             this.guna2HtmlLabel3.TabIndex = 1;
@@ -173,10 +174,10 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel1.FillColor = System.Drawing.SystemColors.ActiveBorder;
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.CornflowerBlue;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightCyan;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(44, 148);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(480, 423);
@@ -186,7 +187,7 @@
             // AnnounceRTxtBx
             // 
             this.AnnounceRTxtBx.Location = new System.Drawing.Point(32, 187);
-            this.AnnounceRTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AnnounceRTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.AnnounceRTxtBx.Name = "AnnounceRTxtBx";
             this.AnnounceRTxtBx.Size = new System.Drawing.Size(415, 147);
             this.AnnounceRTxtBx.TabIndex = 10;
@@ -197,15 +198,16 @@
             this.PostBtn.BorderRadius = 10;
             this.PostBtn.CheckedState.Parent = this.PostBtn;
             this.PostBtn.CustomImages.Parent = this.PostBtn;
-            this.PostBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PostBtn.FillColor = System.Drawing.Color.Black;
+            this.PostBtn.FillColor2 = System.Drawing.Color.Black;
             this.PostBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PostBtn.ForeColor = System.Drawing.Color.White;
             this.PostBtn.HoverState.Parent = this.PostBtn;
             this.PostBtn.Location = new System.Drawing.Point(32, 354);
-            this.PostBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PostBtn.Margin = new System.Windows.Forms.Padding(4);
             this.PostBtn.Name = "PostBtn";
             this.PostBtn.ShadowDecoration.Parent = this.PostBtn;
-            this.PostBtn.Size = new System.Drawing.Size(187, 49);
+            this.PostBtn.Size = new System.Drawing.Size(128, 46);
             this.PostBtn.TabIndex = 9;
             this.PostBtn.Text = "Post";
             // 
@@ -225,7 +227,7 @@
             this.TitletxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TitletxtBx.HoverState.Parent = this.TitletxtBx;
             this.TitletxtBx.Location = new System.Drawing.Point(32, 98);
-            this.TitletxtBx.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TitletxtBx.Margin = new System.Windows.Forms.Padding(5);
             this.TitletxtBx.Name = "TitletxtBx";
             this.TitletxtBx.PasswordChar = '\0';
             this.TitletxtBx.PlaceholderText = "";
@@ -239,7 +241,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(32, 158);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(68, 22);
             this.guna2HtmlLabel5.TabIndex = 2;
@@ -250,7 +252,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(32, 69);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(32, 22);
             this.guna2HtmlLabel4.TabIndex = 1;
@@ -261,7 +263,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 20);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(196, 27);
             this.guna2HtmlLabel2.TabIndex = 0;
@@ -271,10 +273,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AnnouncementButton";
             this.Size = new System.Drawing.Size(1080, 748);
             this.guna2GradientPanel2.ResumeLayout(false);

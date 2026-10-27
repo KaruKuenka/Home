@@ -16,5 +16,10 @@ namespace Home.Dashboards.Home_Owner.Button
         {
             InitializeComponent();
         }
+
+        private void SubRepBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

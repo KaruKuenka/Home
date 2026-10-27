@@ -47,7 +47,7 @@
             this.LoginMainBtn.ForeColor = System.Drawing.Color.White;
             this.LoginMainBtn.HoverState.Parent = this.LoginMainBtn;
             this.LoginMainBtn.Location = new System.Drawing.Point(32, 320);
-            this.LoginMainBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginMainBtn.Margin = new System.Windows.Forms.Padding(4);
             this.LoginMainBtn.Name = "LoginMainBtn";
             this.LoginMainBtn.ShadowDecoration.Parent = this.LoginMainBtn;
             this.LoginMainBtn.Size = new System.Drawing.Size(240, 55);
@@ -67,7 +67,7 @@
             this.BackBtn.ForeColor = System.Drawing.Color.White;
             this.BackBtn.HoverState.Parent = this.BackBtn;
             this.BackBtn.Location = new System.Drawing.Point(32, 392);
-            this.BackBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BackBtn.Margin = new System.Windows.Forms.Padding(4);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.ShadowDecoration.Parent = this.BackBtn;
             this.BackBtn.Size = new System.Drawing.Size(240, 55);
@@ -93,7 +93,7 @@
             this.TxtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtUsername.HoverState.Parent = this.TxtUsername;
             this.TxtUsername.Location = new System.Drawing.Point(24, 152);
-            this.TxtUsername.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TxtUsername.Margin = new System.Windows.Forms.Padding(5);
             this.TxtUsername.Name = "TxtUsername";
             this.TxtUsername.PasswordChar = '\0';
             this.TxtUsername.PlaceholderText = "";
@@ -119,7 +119,7 @@
             this.TxtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtPassword.HoverState.Parent = this.TxtPassword;
             this.TxtPassword.Location = new System.Drawing.Point(24, 240);
-            this.TxtPassword.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TxtPassword.Margin = new System.Windows.Forms.Padding(5);
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.PasswordChar = '\0';
             this.TxtPassword.PlaceholderText = "";
@@ -132,7 +132,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 128);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(66, 18);
             this.guna2HtmlLabel1.TabIndex = 7;
@@ -142,7 +142,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(24, 216);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(63, 18);
             this.guna2HtmlLabel2.TabIndex = 8;
@@ -152,13 +152,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.TxtUsername);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.LoginMainBtn);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginShow";
             this.Size = new System.Drawing.Size(331, 554);
             this.ResumeLayout(false);
