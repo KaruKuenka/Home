@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.YearCb = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -38,6 +39,7 @@
             this.ViewReceiptBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.ViewReceipt_DataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ViewReceipt_DataGrid)).BeginInit();
@@ -50,21 +52,19 @@
             this.guna2GradientPanel1.Controls.Add(this.YearCb);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.CornflowerBlue;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightCyan;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 79);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(24, 64);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1013, 98);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(760, 80);
             this.guna2GradientPanel1.TabIndex = 0;
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 10);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(16, 8);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(37, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(32, 18);
             this.guna2HtmlLabel2.TabIndex = 1;
             this.guna2HtmlLabel2.Text = "Year";
             // 
@@ -83,11 +83,10 @@
             this.YearCb.HoverState.Parent = this.YearCb;
             this.YearCb.ItemHeight = 30;
             this.YearCb.ItemsAppearance.Parent = this.YearCb;
-            this.YearCb.Location = new System.Drawing.Point(21, 39);
-            this.YearCb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.YearCb.Location = new System.Drawing.Point(16, 32);
             this.YearCb.Name = "YearCb";
             this.YearCb.ShadowDecoration.Parent = this.YearCb;
-            this.YearCb.Size = new System.Drawing.Size(969, 36);
+            this.YearCb.Size = new System.Drawing.Size(728, 36);
             this.YearCb.TabIndex = 0;
             // 
             // guna2GradientPanel2
@@ -97,11 +96,10 @@
             this.guna2GradientPanel2.Controls.Add(this.ViewReceipt_DataGrid);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.CornflowerBlue;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.LightCyan;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(32, 207);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(24, 168);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1013, 377);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(760, 306);
             this.guna2GradientPanel2.TabIndex = 1;
             // 
             // ViewReceiptBtn
@@ -115,50 +113,48 @@
             this.ViewReceiptBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ViewReceiptBtn.ForeColor = System.Drawing.Color.White;
             this.ViewReceiptBtn.HoverState.Parent = this.ViewReceiptBtn;
-            this.ViewReceiptBtn.Location = new System.Drawing.Point(21, 286);
-            this.ViewReceiptBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ViewReceiptBtn.Location = new System.Drawing.Point(16, 232);
             this.ViewReceiptBtn.Name = "ViewReceiptBtn";
             this.ViewReceiptBtn.ShadowDecoration.Parent = this.ViewReceiptBtn;
-            this.ViewReceiptBtn.Size = new System.Drawing.Size(187, 49);
+            this.ViewReceiptBtn.Size = new System.Drawing.Size(140, 40);
             this.ViewReceiptBtn.TabIndex = 1;
             this.ViewReceiptBtn.Text = "View Receipt";
             this.ViewReceiptBtn.UseTransparentBackground = true;
             // 
             // ViewReceipt_DataGrid
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.ViewReceipt_DataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.ViewReceipt_DataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.ViewReceipt_DataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ViewReceipt_DataGrid.BackgroundColor = System.Drawing.Color.White;
             this.ViewReceipt_DataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ViewReceipt_DataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ViewReceipt_DataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ViewReceipt_DataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ViewReceipt_DataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.ViewReceipt_DataGrid.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ViewReceipt_DataGrid.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ViewReceipt_DataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.ViewReceipt_DataGrid.EnableHeadersVisualStyles = false;
             this.ViewReceipt_DataGrid.GridColor = System.Drawing.Color.Black;
-            this.ViewReceipt_DataGrid.Location = new System.Drawing.Point(21, 20);
-            this.ViewReceipt_DataGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ViewReceipt_DataGrid.Location = new System.Drawing.Point(16, 16);
             this.ViewReceipt_DataGrid.Name = "ViewReceipt_DataGrid";
             this.ViewReceipt_DataGrid.RowHeadersVisible = false;
             this.ViewReceipt_DataGrid.RowHeadersWidth = 51;
             this.ViewReceipt_DataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ViewReceipt_DataGrid.Size = new System.Drawing.Size(971, 256);
+            this.ViewReceipt_DataGrid.Size = new System.Drawing.Size(728, 208);
             this.ViewReceipt_DataGrid.TabIndex = 0;
             this.ViewReceipt_DataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.ViewReceipt_DataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -187,24 +183,27 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(43, 30);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(32, 24);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(191, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(153, 26);
             this.guna2HtmlLabel1.TabIndex = 2;
             this.guna2HtmlLabel1.Text = "Payment History";
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // HistoryButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HistoryButton";
-            this.Size = new System.Drawing.Size(1080, 748);
+            this.Size = new System.Drawing.Size(810, 608);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);
@@ -223,5 +222,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox YearCb;
         private Guna.UI2.WinForms.Guna2DataGridView ViewReceipt_DataGrid;
         private Guna.UI2.WinForms.Guna2GradientButton ViewReceiptBtn;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

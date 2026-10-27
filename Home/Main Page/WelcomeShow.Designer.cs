@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.ExitBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.LoginBtn = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.SuspendLayout();
             // 
             // ExitBtn
@@ -42,11 +44,10 @@
             this.ExitBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitBtn.ForeColor = System.Drawing.Color.White;
             this.ExitBtn.HoverState.Parent = this.ExitBtn;
-            this.ExitBtn.Location = new System.Drawing.Point(40, 264);
-            this.ExitBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.ExitBtn.Location = new System.Drawing.Point(30, 214);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.ShadowDecoration.Parent = this.ExitBtn;
-            this.ExitBtn.Size = new System.Drawing.Size(240, 55);
+            this.ExitBtn.Size = new System.Drawing.Size(180, 45);
             this.ExitBtn.TabIndex = 2;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseTransparentBackground = true;
@@ -62,26 +63,29 @@
             this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.HoverState.Parent = this.LoginBtn;
-            this.LoginBtn.Location = new System.Drawing.Point(40, 192);
-            this.LoginBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginBtn.Location = new System.Drawing.Point(30, 156);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.ShadowDecoration.Parent = this.LoginBtn;
-            this.LoginBtn.Size = new System.Drawing.Size(240, 55);
+            this.LoginBtn.Size = new System.Drawing.Size(180, 45);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Get Started";
             this.LoginBtn.UseTransparentBackground = true;
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // WelcomeShow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.ExitBtn);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "WelcomeShow";
-            this.Size = new System.Drawing.Size(331, 554);
+            this.Size = new System.Drawing.Size(248, 450);
             this.ResumeLayout(false);
 
         }
@@ -89,5 +93,6 @@
         #endregion
         private Guna.UI2.WinForms.Guna2GradientButton ExitBtn;
         private Guna.UI2.WinForms.Guna2GradientButton LoginBtn;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

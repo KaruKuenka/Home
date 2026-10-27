@@ -314,6 +314,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Guna_dll\Guna.UI2.dll" />
+    <None Include="Resources\Logo_Bg2.png" />
+    <None Include="Resources\Logo_Bg.png" />
+    <None Include="Resources\Background_Blurred.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
