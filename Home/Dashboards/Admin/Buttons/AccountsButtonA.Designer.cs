@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.UpdatePassBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.CurrPassTxtBx = new Guna.UI2.WinForms.Guna2TextBox();
             this.ConNewPassTxtBx = new Guna.UI2.WinForms.Guna2TextBox();
             this.NewPassTxtBx = new Guna.UI2.WinForms.Guna2TextBox();
@@ -50,26 +47,17 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.UpdatePassBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(33, 64);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(113, 26);
-            this.guna2HtmlLabel1.TabIndex = 8;
-            this.guna2HtmlLabel1.Text = "My Account";
-            // 
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel2.BorderRadius = 15;
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(206)))), ((int)(((byte)(216)))));
+            this.guna2GradientPanel2.BorderRadius = 8;
+            this.guna2GradientPanel2.BorderThickness = 1;
             this.guna2GradientPanel2.Controls.Add(this.UpdatePassBtn);
             this.guna2GradientPanel2.Controls.Add(this.CurrPassTxtBx);
             this.guna2GradientPanel2.Controls.Add(this.ConNewPassTxtBx);
@@ -78,31 +66,14 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel9);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel8);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(417, 120);
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(464, 56);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(360, 424);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(384, 424);
             this.guna2GradientPanel2.TabIndex = 7;
             this.guna2GradientPanel2.UseTransparentBackground = true;
-            // 
-            // UpdatePassBtn
-            // 
-            this.UpdatePassBtn.BorderRadius = 10;
-            this.UpdatePassBtn.CheckedState.Parent = this.UpdatePassBtn;
-            this.UpdatePassBtn.CustomImages.Parent = this.UpdatePassBtn;
-            this.UpdatePassBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(227)))), ((int)(((byte)(249)))));
-            this.UpdatePassBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(227)))), ((int)(((byte)(249)))));
-            this.UpdatePassBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpdatePassBtn.ForeColor = System.Drawing.Color.Black;
-            this.UpdatePassBtn.HoverState.Parent = this.UpdatePassBtn;
-            this.UpdatePassBtn.Location = new System.Drawing.Point(24, 272);
-            this.UpdatePassBtn.Name = "UpdatePassBtn";
-            this.UpdatePassBtn.ShadowDecoration.Parent = this.UpdatePassBtn;
-            this.UpdatePassBtn.Size = new System.Drawing.Size(102, 33);
-            this.UpdatePassBtn.TabIndex = 9;
-            this.UpdatePassBtn.Text = "Update Password";
             // 
             // CurrPassTxtBx
             // 
@@ -120,13 +91,13 @@
             this.CurrPassTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CurrPassTxtBx.HoverState.Parent = this.CurrPassTxtBx;
             this.CurrPassTxtBx.Location = new System.Drawing.Point(24, 80);
-            this.CurrPassTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CurrPassTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.CurrPassTxtBx.Name = "CurrPassTxtBx";
             this.CurrPassTxtBx.PasswordChar = '\0';
             this.CurrPassTxtBx.PlaceholderText = "";
             this.CurrPassTxtBx.SelectedText = "";
             this.CurrPassTxtBx.ShadowDecoration.Parent = this.CurrPassTxtBx;
-            this.CurrPassTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.CurrPassTxtBx.Size = new System.Drawing.Size(336, 36);
             this.CurrPassTxtBx.TabIndex = 8;
             // 
             // ConNewPassTxtBx
@@ -145,13 +116,13 @@
             this.ConNewPassTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ConNewPassTxtBx.HoverState.Parent = this.ConNewPassTxtBx;
             this.ConNewPassTxtBx.Location = new System.Drawing.Point(24, 224);
-            this.ConNewPassTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConNewPassTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.ConNewPassTxtBx.Name = "ConNewPassTxtBx";
             this.ConNewPassTxtBx.PasswordChar = '\0';
             this.ConNewPassTxtBx.PlaceholderText = "";
             this.ConNewPassTxtBx.SelectedText = "";
             this.ConNewPassTxtBx.ShadowDecoration.Parent = this.ConNewPassTxtBx;
-            this.ConNewPassTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.ConNewPassTxtBx.Size = new System.Drawing.Size(336, 36);
             this.ConNewPassTxtBx.TabIndex = 7;
             // 
             // NewPassTxtBx
@@ -170,13 +141,13 @@
             this.NewPassTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.NewPassTxtBx.HoverState.Parent = this.NewPassTxtBx;
             this.NewPassTxtBx.Location = new System.Drawing.Point(24, 152);
-            this.NewPassTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewPassTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.NewPassTxtBx.Name = "NewPassTxtBx";
             this.NewPassTxtBx.PasswordChar = '\0';
             this.NewPassTxtBx.PlaceholderText = "";
             this.NewPassTxtBx.SelectedText = "";
             this.NewPassTxtBx.ShadowDecoration.Parent = this.NewPassTxtBx;
-            this.NewPassTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.NewPassTxtBx.Size = new System.Drawing.Size(336, 36);
             this.NewPassTxtBx.TabIndex = 6;
             // 
             // guna2HtmlLabel10
@@ -223,7 +194,9 @@
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.BorderRadius = 15;
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(206)))), ((int)(((byte)(216)))));
+            this.guna2GradientPanel1.BorderRadius = 8;
+            this.guna2GradientPanel1.BorderThickness = 1;
             this.guna2GradientPanel1.Controls.Add(this.SaveChangeBtn);
             this.guna2GradientPanel1.Controls.Add(this.EmailTxtBx);
             this.guna2GradientPanel1.Controls.Add(this.ConNumTxtBx);
@@ -234,12 +207,12 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(33, 120);
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(48, 56);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(360, 424);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(384, 424);
             this.guna2GradientPanel1.TabIndex = 6;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
@@ -248,15 +221,16 @@
             this.SaveChangeBtn.BorderRadius = 10;
             this.SaveChangeBtn.CheckedState.Parent = this.SaveChangeBtn;
             this.SaveChangeBtn.CustomImages.Parent = this.SaveChangeBtn;
-            this.SaveChangeBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(227)))), ((int)(((byte)(249)))));
-            this.SaveChangeBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(227)))), ((int)(((byte)(249)))));
+            this.SaveChangeBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
+            this.SaveChangeBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
             this.SaveChangeBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveChangeBtn.ForeColor = System.Drawing.Color.Black;
+            this.SaveChangeBtn.ForeColor = System.Drawing.Color.White;
             this.SaveChangeBtn.HoverState.Parent = this.SaveChangeBtn;
+            this.SaveChangeBtn.Image = global::Home.Properties.Resources.White_diskette__1_;
             this.SaveChangeBtn.Location = new System.Drawing.Point(24, 344);
             this.SaveChangeBtn.Name = "SaveChangeBtn";
             this.SaveChangeBtn.ShadowDecoration.Parent = this.SaveChangeBtn;
-            this.SaveChangeBtn.Size = new System.Drawing.Size(102, 33);
+            this.SaveChangeBtn.Size = new System.Drawing.Size(160, 40);
             this.SaveChangeBtn.TabIndex = 9;
             this.SaveChangeBtn.Text = "Save Changes";
             // 
@@ -276,13 +250,13 @@
             this.EmailTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.EmailTxtBx.HoverState.Parent = this.EmailTxtBx;
             this.EmailTxtBx.Location = new System.Drawing.Point(24, 296);
-            this.EmailTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EmailTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.EmailTxtBx.Name = "EmailTxtBx";
             this.EmailTxtBx.PasswordChar = '\0';
             this.EmailTxtBx.PlaceholderText = "";
             this.EmailTxtBx.SelectedText = "";
             this.EmailTxtBx.ShadowDecoration.Parent = this.EmailTxtBx;
-            this.EmailTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.EmailTxtBx.Size = new System.Drawing.Size(336, 36);
             this.EmailTxtBx.TabIndex = 8;
             // 
             // ConNumTxtBx
@@ -301,13 +275,13 @@
             this.ConNumTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ConNumTxtBx.HoverState.Parent = this.ConNumTxtBx;
             this.ConNumTxtBx.Location = new System.Drawing.Point(24, 224);
-            this.ConNumTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConNumTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.ConNumTxtBx.Name = "ConNumTxtBx";
             this.ConNumTxtBx.PasswordChar = '\0';
             this.ConNumTxtBx.PlaceholderText = "";
             this.ConNumTxtBx.SelectedText = "";
             this.ConNumTxtBx.ShadowDecoration.Parent = this.ConNumTxtBx;
-            this.ConNumTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.ConNumTxtBx.Size = new System.Drawing.Size(336, 36);
             this.ConNumTxtBx.TabIndex = 7;
             // 
             // PositionTxtBx
@@ -326,13 +300,13 @@
             this.PositionTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PositionTxtBx.HoverState.Parent = this.PositionTxtBx;
             this.PositionTxtBx.Location = new System.Drawing.Point(24, 152);
-            this.PositionTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PositionTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.PositionTxtBx.Name = "PositionTxtBx";
             this.PositionTxtBx.PasswordChar = '\0';
             this.PositionTxtBx.PlaceholderText = "";
             this.PositionTxtBx.SelectedText = "";
             this.PositionTxtBx.ShadowDecoration.Parent = this.PositionTxtBx;
-            this.PositionTxtBx.Size = new System.Drawing.Size(312, 36);
+            this.PositionTxtBx.Size = new System.Drawing.Size(336, 36);
             this.PositionTxtBx.TabIndex = 6;
             // 
             // FullNametxtBx
@@ -351,13 +325,13 @@
             this.FullNametxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FullNametxtBx.HoverState.Parent = this.FullNametxtBx;
             this.FullNametxtBx.Location = new System.Drawing.Point(24, 80);
-            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.FullNametxtBx.Name = "FullNametxtBx";
             this.FullNametxtBx.PasswordChar = '\0';
             this.FullNametxtBx.PlaceholderText = "";
             this.FullNametxtBx.SelectedText = "";
             this.FullNametxtBx.ShadowDecoration.Parent = this.FullNametxtBx;
-            this.FullNametxtBx.Size = new System.Drawing.Size(312, 36);
+            this.FullNametxtBx.Size = new System.Drawing.Size(336, 36);
             this.FullNametxtBx.TabIndex = 5;
             // 
             // guna2HtmlLabel7
@@ -411,34 +385,43 @@
             this.guna2HtmlLabel2.TabIndex = 0;
             this.guna2HtmlLabel2.Text = "Personal Details";
             // 
-            // guna2Elipse1
+            // UpdatePassBtn
             // 
-            this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this;
+            this.UpdatePassBtn.BorderRadius = 10;
+            this.UpdatePassBtn.CheckedState.Parent = this.UpdatePassBtn;
+            this.UpdatePassBtn.CustomImages.Parent = this.UpdatePassBtn;
+            this.UpdatePassBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
+            this.UpdatePassBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
+            this.UpdatePassBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdatePassBtn.ForeColor = System.Drawing.Color.White;
+            this.UpdatePassBtn.HoverState.Parent = this.UpdatePassBtn;
+            this.UpdatePassBtn.Image = global::Home.Properties.Resources.White_padlock__1_;
+            this.UpdatePassBtn.Location = new System.Drawing.Point(24, 272);
+            this.UpdatePassBtn.Name = "UpdatePassBtn";
+            this.UpdatePassBtn.ShadowDecoration.Parent = this.UpdatePassBtn;
+            this.UpdatePassBtn.Size = new System.Drawing.Size(160, 40);
+            this.UpdatePassBtn.TabIndex = 9;
+            this.UpdatePassBtn.Text = "Update Password";
             // 
-            // AccountButton
+            // AccountsButtonA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Name = "AccountButton";
-            this.Size = new System.Drawing.Size(810, 608);
+            this.Name = "AccountsButtonA";
+            this.Size = new System.Drawing.Size(900, 616);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2GradientButton UpdatePassBtn;
         private Guna.UI2.WinForms.Guna2TextBox CurrPassTxtBx;
@@ -459,6 +442,5 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

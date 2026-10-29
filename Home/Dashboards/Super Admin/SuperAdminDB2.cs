@@ -16,7 +16,7 @@ namespace Home.Dashboards.Super_Admin
     public partial class SuperAdminDB2 : Form
     {
         private ActivityButtonSA actilog = new ActivityButtonSA();
-        private HomeButtonA Homebut = new HomeButtonA();
+        private HomeButtonSA Homebut = new HomeButtonSA();
         private MAdminButtonSA MAdmin = new MAdminButtonSA();
         private HomeownersButtonSA HOC = new HomeownersButtonSA();
 

@@ -314,6 +314,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Guna_dll\Guna.UI2.dll" />
+    <None Include="Resources\White_diskette %281%29.png" />
+    <None Include="Resources\White_padlock %281%29.png" />
+    <None Include="Resources\padlock.png" />
     <None Include="Resources\White_admin %281%29.png" />
     <None Include="Resources\admin.png" />
     <None Include="Resources\White_file.png" />

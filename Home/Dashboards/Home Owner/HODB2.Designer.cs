@@ -45,7 +45,6 @@
             this.PaymentBtn = new Guna.UI2.WinForms.Guna2Button();
             this.ReportBtn = new Guna.UI2.WinForms.Guna2Button();
             this.HomeBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.ShowCOntentPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -363,15 +362,6 @@
             this.HomeBtn.UseTransparentBackground = true;
             this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel3.Location = new System.Drawing.Point(200, 104);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(8, 616);
-            this.guna2Panel3.TabIndex = 1;
-            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this.HeaderPanel;
@@ -379,16 +369,16 @@
             // ShowCOntentPnl
             // 
             this.ShowCOntentPnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ShowCOntentPnl.Location = new System.Drawing.Point(208, 104);
+            this.ShowCOntentPnl.Location = new System.Drawing.Point(200, 104);
             this.ShowCOntentPnl.Name = "ShowCOntentPnl";
-            this.ShowCOntentPnl.Padding = new System.Windows.Forms.Padding(3, 10, 10, 10);
             this.ShowCOntentPnl.ShadowDecoration.Parent = this.ShowCOntentPnl;
-            this.ShowCOntentPnl.Size = new System.Drawing.Size(892, 616);
+            this.ShowCOntentPnl.Size = new System.Drawing.Size(900, 616);
             this.ShowCOntentPnl.TabIndex = 2;
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
             // 
             // HODB2
             // 
@@ -396,7 +386,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 720);
             this.Controls.Add(this.ShowCOntentPnl);
-            this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -417,7 +406,6 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2Panel ShowCOntentPnl;
         private Guna.UI2.WinForms.Guna2GradientPanel Button_Contentpnl;

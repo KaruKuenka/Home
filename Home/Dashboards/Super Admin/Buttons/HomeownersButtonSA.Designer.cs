@@ -80,7 +80,7 @@
             this.FullNametxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FullNametxtBx.HoverState.Parent = this.FullNametxtBx;
             this.FullNametxtBx.Location = new System.Drawing.Point(24, 80);
-            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.FullNametxtBx.Name = "FullNametxtBx";
             this.FullNametxtBx.PasswordChar = '\0';
             this.FullNametxtBx.PlaceholderText = "";
@@ -105,7 +105,7 @@
             this.AddressTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.AddressTxtBx.HoverState.Parent = this.AddressTxtBx;
             this.AddressTxtBx.Location = new System.Drawing.Point(24, 152);
-            this.AddressTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddressTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.AddressTxtBx.Name = "AddressTxtBx";
             this.AddressTxtBx.PasswordChar = '\0';
             this.AddressTxtBx.PlaceholderText = "";
@@ -130,7 +130,7 @@
             this.UsernameTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.UsernameTxtBx.HoverState.Parent = this.UsernameTxtBx;
             this.UsernameTxtBx.Location = new System.Drawing.Point(24, 224);
-            this.UsernameTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UsernameTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.UsernameTxtBx.Name = "UsernameTxtBx";
             this.UsernameTxtBx.PasswordChar = '\0';
             this.UsernameTxtBx.PlaceholderText = "";
@@ -155,7 +155,7 @@
             this.TempPassTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TempPassTxtBx.HoverState.Parent = this.TempPassTxtBx;
             this.TempPassTxtBx.Location = new System.Drawing.Point(24, 296);
-            this.TempPassTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TempPassTxtBx.Margin = new System.Windows.Forms.Padding(4);
             this.TempPassTxtBx.Name = "TempPassTxtBx";
             this.TempPassTxtBx.PasswordChar = '\0';
             this.TempPassTxtBx.PlaceholderText = "";
@@ -360,17 +360,17 @@
             this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // HomeownersButton
+            // HomeownersButtonSA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Name = "HomeownersButton";
-            this.Size = new System.Drawing.Size(810, 608);
+            this.Name = "HomeownersButtonSA";
+            this.Size = new System.Drawing.Size(900, 616);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);

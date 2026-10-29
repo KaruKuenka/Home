@@ -433,6 +433,16 @@ namespace Home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap padlock {
+            get {
+                object obj = ResourceManager.GetObject("padlock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap report {
             get {
                 object obj = ResourceManager.GetObject("report", resourceCulture);
@@ -543,6 +553,16 @@ namespace Home.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap White_diskette__1_ {
+            get {
+                object obj = ResourceManager.GetObject("White_diskette (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap White_email__1_ {
             get {
                 object obj = ResourceManager.GetObject("White_email (1)", resourceCulture);
@@ -606,6 +626,16 @@ namespace Home.Properties {
         internal static System.Drawing.Bitmap White_messenger {
             get {
                 object obj = ResourceManager.GetObject("White_messenger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_padlock__1_ {
+            get {
+                object obj = ResourceManager.GetObject("White_padlock (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
