@@ -49,10 +49,11 @@
             this.Button_Sidebarpnl.Controls.Add(this.Button_Contentpnl);
             this.Button_Sidebarpnl.Dock = System.Windows.Forms.DockStyle.Left;
             this.Button_Sidebarpnl.Location = new System.Drawing.Point(0, 0);
+            this.Button_Sidebarpnl.Margin = new System.Windows.Forms.Padding(4);
             this.Button_Sidebarpnl.Name = "Button_Sidebarpnl";
-            this.Button_Sidebarpnl.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.Button_Sidebarpnl.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.Button_Sidebarpnl.ShadowDecoration.Parent = this.Button_Sidebarpnl;
-            this.Button_Sidebarpnl.Size = new System.Drawing.Size(150, 601);
+            this.Button_Sidebarpnl.Size = new System.Drawing.Size(200, 740);
             this.Button_Sidebarpnl.TabIndex = 1;
             // 
             // Button_Contentpnl
@@ -67,13 +68,14 @@
             this.Button_Contentpnl.Controls.Add(this.HomeBtn);
             this.Button_Contentpnl.Controls.Add(this.guna2PictureBox1);
             this.Button_Contentpnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Button_Contentpnl.FillColor = System.Drawing.Color.SteelBlue;
-            this.Button_Contentpnl.FillColor2 = System.Drawing.Color.SteelBlue;
-            this.Button_Contentpnl.Location = new System.Drawing.Point(10, 10);
+            this.Button_Contentpnl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(170)))), ((int)(((byte)(203)))));
+            this.Button_Contentpnl.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(170)))), ((int)(((byte)(203)))));
+            this.Button_Contentpnl.Location = new System.Drawing.Point(13, 12);
+            this.Button_Contentpnl.Margin = new System.Windows.Forms.Padding(4);
             this.Button_Contentpnl.Name = "Button_Contentpnl";
-            this.Button_Contentpnl.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.Button_Contentpnl.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.Button_Contentpnl.ShadowDecoration.Parent = this.Button_Contentpnl;
-            this.Button_Contentpnl.Size = new System.Drawing.Size(130, 581);
+            this.Button_Contentpnl.Size = new System.Drawing.Size(174, 716);
             this.Button_Contentpnl.TabIndex = 0;
             this.Button_Contentpnl.UseTransparentBackground = true;
             // 
@@ -91,10 +93,11 @@
             this.LogoutBtn.ForeColor = System.Drawing.Color.White;
             this.LogoutBtn.HoverState.Parent = this.LogoutBtn;
             this.LogoutBtn.Image = global::Home.Properties.Resources.logout;
-            this.LogoutBtn.Location = new System.Drawing.Point(40, 520);
+            this.LogoutBtn.Location = new System.Drawing.Point(53, 640);
+            this.LogoutBtn.Margin = new System.Windows.Forms.Padding(4);
             this.LogoutBtn.Name = "LogoutBtn";
             this.LogoutBtn.ShadowDecoration.Parent = this.LogoutBtn;
-            this.LogoutBtn.Size = new System.Drawing.Size(45, 45);
+            this.LogoutBtn.Size = new System.Drawing.Size(60, 55);
             this.LogoutBtn.TabIndex = 11;
             this.LogoutBtn.UseTransparentBackground = true;
             this.LogoutBtn.Click += new System.EventHandler(this.LogoutBtn_Click);
@@ -113,10 +116,11 @@
             this.HistoryBtn.ForeColor = System.Drawing.Color.White;
             this.HistoryBtn.HoverState.Parent = this.HistoryBtn;
             this.HistoryBtn.Image = global::Home.Properties.Resources.history;
-            this.HistoryBtn.Location = new System.Drawing.Point(40, 288);
+            this.HistoryBtn.Location = new System.Drawing.Point(53, 354);
+            this.HistoryBtn.Margin = new System.Windows.Forms.Padding(4);
             this.HistoryBtn.Name = "HistoryBtn";
             this.HistoryBtn.ShadowDecoration.Parent = this.HistoryBtn;
-            this.HistoryBtn.Size = new System.Drawing.Size(45, 45);
+            this.HistoryBtn.Size = new System.Drawing.Size(60, 55);
             this.HistoryBtn.TabIndex = 10;
             this.HistoryBtn.UseTransparentBackground = true;
             this.HistoryBtn.Click += new System.EventHandler(this.HistoryBtn_Click);
@@ -135,10 +139,11 @@
             this.PaymentBtn.ForeColor = System.Drawing.Color.White;
             this.PaymentBtn.HoverState.Parent = this.PaymentBtn;
             this.PaymentBtn.Image = global::Home.Properties.Resources.credit_card;
-            this.PaymentBtn.Location = new System.Drawing.Point(40, 232);
+            this.PaymentBtn.Location = new System.Drawing.Point(53, 286);
+            this.PaymentBtn.Margin = new System.Windows.Forms.Padding(4);
             this.PaymentBtn.Name = "PaymentBtn";
             this.PaymentBtn.ShadowDecoration.Parent = this.PaymentBtn;
-            this.PaymentBtn.Size = new System.Drawing.Size(45, 45);
+            this.PaymentBtn.Size = new System.Drawing.Size(60, 55);
             this.PaymentBtn.TabIndex = 9;
             this.PaymentBtn.UseTransparentBackground = true;
             this.PaymentBtn.Click += new System.EventHandler(this.PaymentBtn_Click);
@@ -157,10 +162,11 @@
             this.ReportBtn.ForeColor = System.Drawing.Color.White;
             this.ReportBtn.HoverState.Parent = this.ReportBtn;
             this.ReportBtn.Image = global::Home.Properties.Resources.chat;
-            this.ReportBtn.Location = new System.Drawing.Point(40, 176);
+            this.ReportBtn.Location = new System.Drawing.Point(53, 217);
+            this.ReportBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ReportBtn.Name = "ReportBtn";
             this.ReportBtn.ShadowDecoration.Parent = this.ReportBtn;
-            this.ReportBtn.Size = new System.Drawing.Size(45, 45);
+            this.ReportBtn.Size = new System.Drawing.Size(60, 55);
             this.ReportBtn.TabIndex = 8;
             this.ReportBtn.UseTransparentBackground = true;
             this.ReportBtn.Click += new System.EventHandler(this.ReportBtn_Click);
@@ -179,10 +185,11 @@
             this.AccountBtn.ForeColor = System.Drawing.Color.White;
             this.AccountBtn.HoverState.Parent = this.AccountBtn;
             this.AccountBtn.Image = global::Home.Properties.Resources.avatar;
-            this.AccountBtn.Location = new System.Drawing.Point(40, 120);
+            this.AccountBtn.Location = new System.Drawing.Point(53, 148);
+            this.AccountBtn.Margin = new System.Windows.Forms.Padding(4);
             this.AccountBtn.Name = "AccountBtn";
             this.AccountBtn.ShadowDecoration.Parent = this.AccountBtn;
-            this.AccountBtn.Size = new System.Drawing.Size(45, 45);
+            this.AccountBtn.Size = new System.Drawing.Size(60, 55);
             this.AccountBtn.TabIndex = 7;
             this.AccountBtn.UseTransparentBackground = true;
             this.AccountBtn.Click += new System.EventHandler(this.AccountBtn_Click);
@@ -201,10 +208,11 @@
             this.HomeBtn.ForeColor = System.Drawing.Color.White;
             this.HomeBtn.HoverState.Parent = this.HomeBtn;
             this.HomeBtn.Image = global::Home.Properties.Resources.house;
-            this.HomeBtn.Location = new System.Drawing.Point(40, 64);
+            this.HomeBtn.Location = new System.Drawing.Point(53, 79);
+            this.HomeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.HomeBtn.Name = "HomeBtn";
             this.HomeBtn.ShadowDecoration.Parent = this.HomeBtn;
-            this.HomeBtn.Size = new System.Drawing.Size(45, 45);
+            this.HomeBtn.Size = new System.Drawing.Size(60, 55);
             this.HomeBtn.TabIndex = 0;
             this.HomeBtn.UseTransparentBackground = true;
             this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
@@ -213,10 +221,11 @@
             // 
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2PictureBox1.Image = global::Home.Properties.Resources.logo;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(10, 10);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(13, 12);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(110, 40);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(148, 49);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -224,31 +233,34 @@
             // guna2Panel2
             // 
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel2.Location = new System.Drawing.Point(150, 0);
+            this.guna2Panel2.Location = new System.Drawing.Point(200, 0);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(10, 601);
+            this.guna2Panel2.Size = new System.Drawing.Size(13, 740);
             this.guna2Panel2.TabIndex = 2;
             // 
             // ShowContentPnl
             // 
             this.ShowContentPnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ShowContentPnl.Location = new System.Drawing.Point(160, 0);
+            this.ShowContentPnl.Location = new System.Drawing.Point(213, 0);
+            this.ShowContentPnl.Margin = new System.Windows.Forms.Padding(4);
             this.ShowContentPnl.Name = "ShowContentPnl";
-            this.ShowContentPnl.Padding = new System.Windows.Forms.Padding(10);
+            this.ShowContentPnl.Padding = new System.Windows.Forms.Padding(13, 12, 13, 12);
             this.ShowContentPnl.ShadowDecoration.Parent = this.ShowContentPnl;
-            this.ShowContentPnl.Size = new System.Drawing.Size(824, 601);
+            this.ShowContentPnl.Size = new System.Drawing.Size(1099, 740);
             this.ShowContentPnl.TabIndex = 3;
             // 
             // HODashBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 601);
+            this.ClientSize = new System.Drawing.Size(1312, 740);
             this.Controls.Add(this.ShowContentPnl);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.Button_Sidebarpnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HODashBoard";
             this.Text = "HODashBoard";
             this.Button_Sidebarpnl.ResumeLayout(false);
