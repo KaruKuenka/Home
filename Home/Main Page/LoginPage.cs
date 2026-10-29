@@ -20,6 +20,7 @@ namespace Home.Main_Page
         private HODashBoard homeowner;
         private AdminDashBoard admin;
         private SuperAdminDashBoard superadmin;
+        private AdminDB2 adminDB2;
 
         public LoginPage()
         {
@@ -32,10 +33,12 @@ namespace Home.Main_Page
             homeowner = new HODashBoard();
             admin = new AdminDashBoard();
             superadmin = new SuperAdminDashBoard();
+            adminDB2 = new AdminDB2();
 
             homeowner.Show();
             admin.Show();
             superadmin.Show();
+            adminDB2.Show();
 
             welcomeShow.Dock = DockStyle.Fill;
             loginshow.Dock = DockStyle.Fill;

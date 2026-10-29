@@ -57,6 +57,12 @@
     <Compile Include="Dashboards\Admin\AdminDashBoard.Designer.cs">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dashboards\Admin\AdminDB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Admin\AdminDB2.Designer.cs">
+      <DependentUpon>AdminDB2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboards\Admin\Buttons\AccountButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -176,6 +182,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboards\Admin\AdminDashBoard.resx">
       <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboards\Admin\AdminDB2.resx">
+      <DependentUpon>AdminDB2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboards\Admin\Buttons\AccountButton.resx">
       <DependentUpon>AccountButton.cs</DependentUpon>

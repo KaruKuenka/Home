@@ -61,11 +61,10 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(21, 89);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(16, 72);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(324, 122);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(243, 99);
             this.guna2GradientPanel1.TabIndex = 5;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
@@ -73,10 +72,9 @@
             // 
             this.PaidCounter.BackColor = System.Drawing.Color.Transparent;
             this.PaidCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaidCounter.Location = new System.Drawing.Point(32, 49);
-            this.PaidCounter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PaidCounter.Location = new System.Drawing.Point(24, 40);
             this.PaidCounter.Name = "PaidCounter";
-            this.PaidCounter.Size = new System.Drawing.Size(38, 31);
+            this.PaidCounter.Size = new System.Drawing.Size(30, 26);
             this.PaidCounter.TabIndex = 1;
             this.PaidCounter.Text = "[N]";
             // 
@@ -85,10 +83,9 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(32, 20);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 16);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(40, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(35, 19);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "Paid";
             // 
@@ -101,11 +98,10 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(373, 89);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(280, 72);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(324, 122);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(243, 99);
             this.guna2GradientPanel2.TabIndex = 6;
             this.guna2GradientPanel2.UseTransparentBackground = true;
             // 
@@ -113,10 +109,9 @@
             // 
             this.UnpaidCounter.BackColor = System.Drawing.Color.Transparent;
             this.UnpaidCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UnpaidCounter.Location = new System.Drawing.Point(32, 49);
-            this.UnpaidCounter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UnpaidCounter.Location = new System.Drawing.Point(24, 40);
             this.UnpaidCounter.Name = "UnpaidCounter";
-            this.UnpaidCounter.Size = new System.Drawing.Size(38, 31);
+            this.UnpaidCounter.Size = new System.Drawing.Size(30, 26);
             this.UnpaidCounter.TabIndex = 2;
             this.UnpaidCounter.Text = "[N]";
             // 
@@ -125,10 +120,9 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(32, 20);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(24, 16);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(61, 22);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(54, 19);
             this.guna2HtmlLabel3.TabIndex = 1;
             this.guna2HtmlLabel3.Text = "Unpaid";
             // 
@@ -141,11 +135,10 @@
             this.guna2GradientPanel3.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(725, 89);
-            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(544, 72);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(324, 122);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(243, 99);
             this.guna2GradientPanel3.TabIndex = 6;
             this.guna2GradientPanel3.UseTransparentBackground = true;
             // 
@@ -157,13 +150,12 @@
             this.MonthMoni.FillColor = System.Drawing.SystemColors.Control;
             this.MonthMoni.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.MonthMoni.HoverState.Parent = this.MonthMoni;
-            this.MonthMoni.Location = new System.Drawing.Point(32, 49);
-            this.MonthMoni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MonthMoni.Location = new System.Drawing.Point(24, 40);
             this.MonthMoni.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.MonthMoni.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.MonthMoni.Name = "MonthMoni";
             this.MonthMoni.ShadowDecoration.Parent = this.MonthMoni;
-            this.MonthMoni.Size = new System.Drawing.Size(267, 39);
+            this.MonthMoni.Size = new System.Drawing.Size(200, 32);
             this.MonthMoni.TabIndex = 2;
             this.MonthMoni.Value = new System.DateTime(2026, 10, 19, 21, 26, 50, 96);
             // 
@@ -172,10 +164,9 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(32, 20);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(24, 16);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(54, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(47, 19);
             this.guna2HtmlLabel5.TabIndex = 1;
             this.guna2HtmlLabel5.Text = "Month";
             // 
@@ -187,11 +178,10 @@
             this.guna2GradientPanel4.Controls.Add(this.PaymentMonitorDG);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(21, 226);
-            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(16, 184);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(1027, 414);
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(770, 336);
             this.guna2GradientPanel4.TabIndex = 6;
             this.guna2GradientPanel4.UseTransparentBackground = true;
             // 
@@ -223,13 +213,12 @@
             this.PaymentMonitorDG.DefaultCellStyle = dataGridViewCellStyle3;
             this.PaymentMonitorDG.EnableHeadersVisualStyles = false;
             this.PaymentMonitorDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.PaymentMonitorDG.Location = new System.Drawing.Point(21, 20);
-            this.PaymentMonitorDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PaymentMonitorDG.Location = new System.Drawing.Point(16, 16);
             this.PaymentMonitorDG.Name = "PaymentMonitorDG";
             this.PaymentMonitorDG.RowHeadersVisible = false;
             this.PaymentMonitorDG.RowHeadersWidth = 51;
             this.PaymentMonitorDG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PaymentMonitorDG.Size = new System.Drawing.Size(981, 372);
+            this.PaymentMonitorDG.Size = new System.Drawing.Size(736, 302);
             this.PaymentMonitorDG.TabIndex = 0;
             this.PaymentMonitorDG.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.PaymentMonitorDG.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -259,10 +248,9 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 30);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(16, 24);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(213, 31);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(172, 26);
             this.guna2HtmlLabel2.TabIndex = 7;
             this.guna2HtmlLabel2.Text = "Monthly Payments";
             // 
@@ -273,17 +261,18 @@
             // 
             // PaymentsButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PaymentsButton";
-            this.Size = new System.Drawing.Size(1080, 748);
+            this.Size = new System.Drawing.Size(810, 608);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);

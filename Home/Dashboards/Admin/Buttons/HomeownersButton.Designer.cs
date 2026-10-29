@@ -58,10 +58,9 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(32, 20);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 16);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(256, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(210, 26);
             this.guna2HtmlLabel1.TabIndex = 6;
             this.guna2HtmlLabel1.Text = "Homeowner Accounts";
             // 
@@ -80,14 +79,14 @@
             this.FullNametxtBx.FocusedState.Parent = this.FullNametxtBx;
             this.FullNametxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FullNametxtBx.HoverState.Parent = this.FullNametxtBx;
-            this.FullNametxtBx.Location = new System.Drawing.Point(32, 98);
-            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.FullNametxtBx.Location = new System.Drawing.Point(24, 80);
+            this.FullNametxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FullNametxtBx.Name = "FullNametxtBx";
             this.FullNametxtBx.PasswordChar = '\0';
             this.FullNametxtBx.PlaceholderText = "";
             this.FullNametxtBx.SelectedText = "";
             this.FullNametxtBx.ShadowDecoration.Parent = this.FullNametxtBx;
-            this.FullNametxtBx.Size = new System.Drawing.Size(341, 44);
+            this.FullNametxtBx.Size = new System.Drawing.Size(256, 36);
             this.FullNametxtBx.TabIndex = 5;
             // 
             // AddressTxtBx
@@ -105,14 +104,14 @@
             this.AddressTxtBx.FocusedState.Parent = this.AddressTxtBx;
             this.AddressTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.AddressTxtBx.HoverState.Parent = this.AddressTxtBx;
-            this.AddressTxtBx.Location = new System.Drawing.Point(32, 187);
-            this.AddressTxtBx.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.AddressTxtBx.Location = new System.Drawing.Point(24, 152);
+            this.AddressTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AddressTxtBx.Name = "AddressTxtBx";
             this.AddressTxtBx.PasswordChar = '\0';
             this.AddressTxtBx.PlaceholderText = "";
             this.AddressTxtBx.SelectedText = "";
             this.AddressTxtBx.ShadowDecoration.Parent = this.AddressTxtBx;
-            this.AddressTxtBx.Size = new System.Drawing.Size(341, 44);
+            this.AddressTxtBx.Size = new System.Drawing.Size(256, 36);
             this.AddressTxtBx.TabIndex = 6;
             // 
             // UsernameTxtBx
@@ -130,14 +129,14 @@
             this.UsernameTxtBx.FocusedState.Parent = this.UsernameTxtBx;
             this.UsernameTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.UsernameTxtBx.HoverState.Parent = this.UsernameTxtBx;
-            this.UsernameTxtBx.Location = new System.Drawing.Point(32, 276);
-            this.UsernameTxtBx.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.UsernameTxtBx.Location = new System.Drawing.Point(24, 224);
+            this.UsernameTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UsernameTxtBx.Name = "UsernameTxtBx";
             this.UsernameTxtBx.PasswordChar = '\0';
             this.UsernameTxtBx.PlaceholderText = "";
             this.UsernameTxtBx.SelectedText = "";
             this.UsernameTxtBx.ShadowDecoration.Parent = this.UsernameTxtBx;
-            this.UsernameTxtBx.Size = new System.Drawing.Size(341, 44);
+            this.UsernameTxtBx.Size = new System.Drawing.Size(256, 36);
             this.UsernameTxtBx.TabIndex = 7;
             // 
             // TempPassTxtBx
@@ -155,14 +154,14 @@
             this.TempPassTxtBx.FocusedState.Parent = this.TempPassTxtBx;
             this.TempPassTxtBx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TempPassTxtBx.HoverState.Parent = this.TempPassTxtBx;
-            this.TempPassTxtBx.Location = new System.Drawing.Point(32, 364);
-            this.TempPassTxtBx.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.TempPassTxtBx.Location = new System.Drawing.Point(24, 296);
+            this.TempPassTxtBx.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TempPassTxtBx.Name = "TempPassTxtBx";
             this.TempPassTxtBx.PasswordChar = '\0';
             this.TempPassTxtBx.PlaceholderText = "";
             this.TempPassTxtBx.SelectedText = "";
             this.TempPassTxtBx.ShadowDecoration.Parent = this.TempPassTxtBx;
-            this.TempPassTxtBx.Size = new System.Drawing.Size(341, 44);
+            this.TempPassTxtBx.Size = new System.Drawing.Size(256, 36);
             this.TempPassTxtBx.TabIndex = 8;
             // 
             // CreateAccBtn
@@ -175,11 +174,10 @@
             this.CreateAccBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateAccBtn.ForeColor = System.Drawing.Color.Black;
             this.CreateAccBtn.HoverState.Parent = this.CreateAccBtn;
-            this.CreateAccBtn.Location = new System.Drawing.Point(32, 423);
-            this.CreateAccBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CreateAccBtn.Location = new System.Drawing.Point(24, 344);
             this.CreateAccBtn.Name = "CreateAccBtn";
             this.CreateAccBtn.ShadowDecoration.Parent = this.CreateAccBtn;
-            this.CreateAccBtn.Size = new System.Drawing.Size(128, 41);
+            this.CreateAccBtn.Size = new System.Drawing.Size(96, 33);
             this.CreateAccBtn.TabIndex = 9;
             this.CreateAccBtn.Text = "Create Account";
             // 
@@ -199,11 +197,10 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 69);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(24, 56);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(400, 492);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(300, 400);
             this.guna2GradientPanel1.TabIndex = 4;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
@@ -211,10 +208,9 @@
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(32, 335);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(24, 272);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(151, 22);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(133, 18);
             this.guna2HtmlLabel7.TabIndex = 4;
             this.guna2HtmlLabel7.Text = "Temporary Password";
             // 
@@ -222,10 +218,9 @@
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(32, 246);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(24, 200);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(77, 22);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(66, 18);
             this.guna2HtmlLabel6.TabIndex = 3;
             this.guna2HtmlLabel6.Text = "Username";
             // 
@@ -233,10 +228,9 @@
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(32, 158);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(24, 128);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(188, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(159, 18);
             this.guna2HtmlLabel5.TabIndex = 2;
             this.guna2HtmlLabel5.Text = "Block / Lot / (set by admin)";
             // 
@@ -244,10 +238,9 @@
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(32, 69);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(24, 56);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(74, 22);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(64, 18);
             this.guna2HtmlLabel4.TabIndex = 1;
             this.guna2HtmlLabel4.Text = "Full Name";
             // 
@@ -255,10 +248,9 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(21, 20);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(16, 16);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(131, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(113, 19);
             this.guna2HtmlLabel2.TabIndex = 0;
             this.guna2HtmlLabel2.Text = "Create account";
             // 
@@ -271,11 +263,10 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel11);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(448, 69);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(336, 56);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(608, 492);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(456, 400);
             this.guna2GradientPanel2.TabIndex = 10;
             this.guna2GradientPanel2.UseTransparentBackground = true;
             // 
@@ -307,13 +298,12 @@
             this.HOListDG.DefaultCellStyle = dataGridViewCellStyle3;
             this.HOListDG.EnableHeadersVisualStyles = false;
             this.HOListDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.HOListDG.Location = new System.Drawing.Point(21, 59);
-            this.HOListDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HOListDG.Location = new System.Drawing.Point(16, 48);
             this.HOListDG.Name = "HOListDG";
             this.HOListDG.RowHeadersVisible = false;
             this.HOListDG.RowHeadersWidth = 51;
             this.HOListDG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.HOListDG.Size = new System.Drawing.Size(565, 246);
+            this.HOListDG.Size = new System.Drawing.Size(424, 200);
             this.HOListDG.TabIndex = 10;
             this.HOListDG.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.HOListDG.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -348,11 +338,10 @@
             this.DelAccBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DelAccBtn.ForeColor = System.Drawing.Color.Black;
             this.DelAccBtn.HoverState.Parent = this.DelAccBtn;
-            this.DelAccBtn.Location = new System.Drawing.Point(21, 315);
-            this.DelAccBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DelAccBtn.Location = new System.Drawing.Point(16, 256);
             this.DelAccBtn.Name = "DelAccBtn";
             this.DelAccBtn.ShadowDecoration.Parent = this.DelAccBtn;
-            this.DelAccBtn.Size = new System.Drawing.Size(131, 46);
+            this.DelAccBtn.Size = new System.Drawing.Size(98, 37);
             this.DelAccBtn.TabIndex = 9;
             this.DelAccBtn.Text = "Delete Selected";
             // 
@@ -360,10 +349,9 @@
             // 
             this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(21, 20);
-            this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(16, 16);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(209, 22);
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(179, 19);
             this.guna2HtmlLabel11.TabIndex = 0;
             this.guna2HtmlLabel11.Text = "Registered Homeowners";
             // 
@@ -374,15 +362,15 @@
             // 
             // HomeownersButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
             this.Controls.Add(this.guna2GradientPanel2);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeownersButton";
-            this.Size = new System.Drawing.Size(1080, 748);
+            this.Size = new System.Drawing.Size(810, 608);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel2.ResumeLayout(false);

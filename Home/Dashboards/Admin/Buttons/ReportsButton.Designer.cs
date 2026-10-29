@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.DataReportMoniDG = new Guna.UI2.WinForms.Guna2DataGridView();
             this.ReportDisplayPnl = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -59,49 +59,47 @@
             this.guna2GradientPanel1.Controls.Add(this.DataReportMoniDG);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 80);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(24, 65);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1013, 300);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(760, 244);
             this.guna2GradientPanel1.TabIndex = 6;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
             // DataReportMoniDG
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.DataReportMoniDG.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DataReportMoniDG.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.DataReportMoniDG.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DataReportMoniDG.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.DataReportMoniDG.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DataReportMoniDG.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DataReportMoniDG.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataReportMoniDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataReportMoniDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DataReportMoniDG.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataReportMoniDG.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataReportMoniDG.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataReportMoniDG.EnableHeadersVisualStyles = false;
             this.DataReportMoniDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataReportMoniDG.Location = new System.Drawing.Point(21, 20);
-            this.DataReportMoniDG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DataReportMoniDG.Location = new System.Drawing.Point(16, 16);
             this.DataReportMoniDG.Name = "DataReportMoniDG";
             this.DataReportMoniDG.RowHeadersVisible = false;
             this.DataReportMoniDG.RowHeadersWidth = 51;
             this.DataReportMoniDG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DataReportMoniDG.Size = new System.Drawing.Size(971, 266);
+            this.DataReportMoniDG.Size = new System.Drawing.Size(728, 216);
             this.DataReportMoniDG.TabIndex = 0;
             this.DataReportMoniDG.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.DataReportMoniDG.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -139,21 +137,19 @@
             this.ReportDisplayPnl.Controls.Add(this.ReportLbl);
             this.ReportDisplayPnl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.ReportDisplayPnl.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.ReportDisplayPnl.Location = new System.Drawing.Point(32, 414);
-            this.ReportDisplayPnl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReportDisplayPnl.Location = new System.Drawing.Point(24, 336);
             this.ReportDisplayPnl.Name = "ReportDisplayPnl";
             this.ReportDisplayPnl.ShadowDecoration.Parent = this.ReportDisplayPnl;
-            this.ReportDisplayPnl.Size = new System.Drawing.Size(1013, 300);
+            this.ReportDisplayPnl.Size = new System.Drawing.Size(760, 244);
             this.ReportDisplayPnl.TabIndex = 7;
             this.ReportDisplayPnl.UseTransparentBackground = true;
             // 
             // AttachedLbl
             // 
             this.AttachedLbl.BackColor = System.Drawing.Color.Transparent;
-            this.AttachedLbl.Location = new System.Drawing.Point(715, 69);
-            this.AttachedLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AttachedLbl.Location = new System.Drawing.Point(536, 56);
             this.AttachedLbl.Name = "AttachedLbl";
-            this.AttachedLbl.Size = new System.Drawing.Size(94, 18);
+            this.AttachedLbl.Size = new System.Drawing.Size(77, 15);
             this.AttachedLbl.TabIndex = 16;
             this.AttachedLbl.Text = "Attached Photo";
             // 
@@ -166,32 +162,29 @@
             this.ViewFullBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ViewFullBtn.ForeColor = System.Drawing.Color.Black;
             this.ViewFullBtn.HoverState.Parent = this.ViewFullBtn;
-            this.ViewFullBtn.Location = new System.Drawing.Point(712, 240);
-            this.ViewFullBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ViewFullBtn.Location = new System.Drawing.Point(534, 195);
             this.ViewFullBtn.Name = "ViewFullBtn";
             this.ViewFullBtn.ShadowDecoration.Parent = this.ViewFullBtn;
-            this.ViewFullBtn.Size = new System.Drawing.Size(109, 44);
+            this.ViewFullBtn.Size = new System.Drawing.Size(82, 36);
             this.ViewFullBtn.TabIndex = 15;
             this.ViewFullBtn.Text = "View Full Size";
             // 
             // PhotoDisplayPnl
             // 
             this.PhotoDisplayPnl.Controls.Add(this.PicReport);
-            this.PhotoDisplayPnl.Location = new System.Drawing.Point(715, 89);
-            this.PhotoDisplayPnl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PhotoDisplayPnl.Location = new System.Drawing.Point(536, 72);
             this.PhotoDisplayPnl.Name = "PhotoDisplayPnl";
             this.PhotoDisplayPnl.ShadowDecoration.Parent = this.PhotoDisplayPnl;
-            this.PhotoDisplayPnl.Size = new System.Drawing.Size(267, 148);
+            this.PhotoDisplayPnl.Size = new System.Drawing.Size(200, 120);
             this.PhotoDisplayPnl.TabIndex = 14;
             // 
             // PicReport
             // 
             this.PicReport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PicReport.Location = new System.Drawing.Point(0, 0);
-            this.PicReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PicReport.Name = "PicReport";
             this.PicReport.ShadowDecoration.Parent = this.PicReport;
-            this.PicReport.Size = new System.Drawing.Size(267, 148);
+            this.PicReport.Size = new System.Drawing.Size(200, 120);
             this.PicReport.TabIndex = 13;
             this.PicReport.TabStop = false;
             // 
@@ -204,11 +197,10 @@
             this.MarkResolveBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MarkResolveBtn.ForeColor = System.Drawing.Color.Black;
             this.MarkResolveBtn.HoverState.Parent = this.MarkResolveBtn;
-            this.MarkResolveBtn.Location = new System.Drawing.Point(168, 152);
-            this.MarkResolveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MarkResolveBtn.Location = new System.Drawing.Point(126, 124);
             this.MarkResolveBtn.Name = "MarkResolveBtn";
             this.MarkResolveBtn.ShadowDecoration.Parent = this.MarkResolveBtn;
-            this.MarkResolveBtn.Size = new System.Drawing.Size(152, 48);
+            this.MarkResolveBtn.Size = new System.Drawing.Size(114, 39);
             this.MarkResolveBtn.TabIndex = 12;
             this.MarkResolveBtn.Text = "Mark Resolved";
             // 
@@ -221,21 +213,19 @@
             this.MarkProgBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MarkProgBtn.ForeColor = System.Drawing.Color.White;
             this.MarkProgBtn.HoverState.Parent = this.MarkProgBtn;
-            this.MarkProgBtn.Location = new System.Drawing.Point(21, 152);
-            this.MarkProgBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MarkProgBtn.Location = new System.Drawing.Point(16, 124);
             this.MarkProgBtn.Name = "MarkProgBtn";
             this.MarkProgBtn.ShadowDecoration.Parent = this.MarkProgBtn;
-            this.MarkProgBtn.Size = new System.Drawing.Size(139, 48);
+            this.MarkProgBtn.Size = new System.Drawing.Size(104, 39);
             this.MarkProgBtn.TabIndex = 11;
             this.MarkProgBtn.Text = "Mark In Progress";
             // 
             // DescriptionLbl
             // 
             this.DescriptionLbl.BackColor = System.Drawing.Color.Transparent;
-            this.DescriptionLbl.Location = new System.Drawing.Point(21, 89);
-            this.DescriptionLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescriptionLbl.Location = new System.Drawing.Point(16, 72);
             this.DescriptionLbl.Name = "DescriptionLbl";
-            this.DescriptionLbl.Size = new System.Drawing.Size(108, 18);
+            this.DescriptionLbl.Size = new System.Drawing.Size(86, 15);
             this.DescriptionLbl.TabIndex = 10;
             this.DescriptionLbl.Text = "guna2HtmlLabel1";
             // 
@@ -243,10 +233,9 @@
             // 
             this.ReportLbl.BackColor = System.Drawing.Color.Transparent;
             this.ReportLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReportLbl.Location = new System.Drawing.Point(21, 20);
-            this.ReportLbl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReportLbl.Location = new System.Drawing.Point(16, 16);
             this.ReportLbl.Name = "ReportLbl";
-            this.ReportLbl.Size = new System.Drawing.Size(82, 31);
+            this.ReportLbl.Size = new System.Drawing.Size(65, 26);
             this.ReportLbl.TabIndex = 9;
             this.ReportLbl.Text = "Report";
             // 
@@ -254,10 +243,9 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(32, 30);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(24, 24);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(243, 31);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(195, 26);
             this.guna2HtmlLabel2.TabIndex = 8;
             this.guna2HtmlLabel2.Text = "Homeowner Reports";
             // 
@@ -268,15 +256,15 @@
             // 
             // ReportsButton
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(202)))), ((int)(((byte)(249)))));
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.ReportDisplayPnl);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ReportsButton";
-            this.Size = new System.Drawing.Size(1080, 748);
+            this.Size = new System.Drawing.Size(810, 608);
             this.guna2GradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataReportMoniDG)).EndInit();
             this.ReportDisplayPnl.ResumeLayout(false);
