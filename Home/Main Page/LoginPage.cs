@@ -15,12 +15,12 @@ namespace Home.Main_Page
 {
     public partial class LoginPage : Form
     {
-        private WelcomeShow welcomeShow;
-        private LoginShow loginshow;
-        private HODashBoard homeowner;
-        private AdminDashBoard admin;
-        private SuperAdminDashBoard superadmin;
-        private AdminDB2 adminDB2;
+        private WelcomeShow welcomeShow = new WelcomeShow();
+        private LoginShow loginshow = new LoginShow();
+        private SuperAdminDB2 SA2 = new SuperAdminDB2();
+        private HODB2 newowner = new HODB2();
+
+        private AdminDB2 adminDB2 = new AdminDB2();
 
         public LoginPage()
         {
@@ -28,16 +28,15 @@ namespace Home.Main_Page
             this.MinimumSize = new Size(800, 450);
 
 
-            welcomeShow = new WelcomeShow();
-            loginshow = new LoginShow();
-            homeowner = new HODashBoard();
-            admin = new AdminDashBoard();
-            superadmin = new SuperAdminDashBoard();
-            adminDB2 = new AdminDB2();
 
-            homeowner.Show();
-            admin.Show();
-            superadmin.Show();
+
+
+
+
+
+            SA2.Show();
+            newowner.Show();
+
             adminDB2.Show();
 
             welcomeShow.Dock = DockStyle.Fill;

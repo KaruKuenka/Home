@@ -51,113 +51,107 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dashboards\Admin\AdminDashBoard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboards\Admin\AdminDashBoard.Designer.cs">
-      <DependentUpon>AdminDashBoard.cs</DependentUpon>
-    </Compile>
     <Compile Include="Dashboards\Admin\AdminDB2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboards\Admin\AdminDB2.Designer.cs">
       <DependentUpon>AdminDB2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\AccountButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\AccountsButtonA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\AccountButton.Designer.cs">
-      <DependentUpon>AccountButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Admin\Buttons\AccountsButtonA.Designer.cs">
+      <DependentUpon>AccountsButtonA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButtonA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButton.Designer.cs">
-      <DependentUpon>AnnouncementButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Admin\Buttons\AnnouncementButtonA.Designer.cs">
+      <DependentUpon>AnnouncementButtonA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\HomeButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\HomeButtonA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\HomeButton.Designer.cs">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Admin\Buttons\HomeButtonA.Designer.cs">
+      <DependentUpon>HomeButtonA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\HomeownersButton.cs">
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeownersButtonSA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\HomeownersButton.Designer.cs">
-      <DependentUpon>HomeownersButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeownersButtonSA.Designer.cs">
+      <DependentUpon>HomeownersButtonSA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\PaymentsButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\PaymentsButtonA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\PaymentsButton.Designer.cs">
-      <DependentUpon>PaymentsButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Admin\Buttons\PaymentsButtonA.Designer.cs">
+      <DependentUpon>PaymentsButtonA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\ReportsButton.cs">
+    <Compile Include="Dashboards\Admin\Buttons\ReportsButtonA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Admin\Buttons\ReportsButton.Designer.cs">
-      <DependentUpon>ReportsButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Admin\Buttons\ReportsButtonA.Designer.cs">
+      <DependentUpon>ReportsButtonA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\AccountButton.cs">
+    <Compile Include="Dashboards\Home Owner\Button\AccountButtonHO.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\AccountButton.Designer.cs">
-      <DependentUpon>AccountButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Home Owner\Button\AccountButtonHO.Designer.cs">
+      <DependentUpon>AccountButtonHO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\HistoryButton.cs">
+    <Compile Include="Dashboards\Home Owner\Button\HistoryButtonHO.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\HistoryButton.Designer.cs">
-      <DependentUpon>HistoryButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Home Owner\Button\HistoryButtonHO.Designer.cs">
+      <DependentUpon>HistoryButtonHO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\PayButton.cs">
+    <Compile Include="Dashboards\Home Owner\Button\PayButtonHO.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\PayButton.Designer.cs">
-      <DependentUpon>PayButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Home Owner\Button\PayButtonHO.Designer.cs">
+      <DependentUpon>PayButtonHO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\ReportButton.cs">
+    <Compile Include="Dashboards\Home Owner\Button\ReportButtonHO.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\ReportButton.Designer.cs">
-      <DependentUpon>ReportButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Home Owner\Button\ReportButtonHO.Designer.cs">
+      <DependentUpon>ReportButtonHO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\HODashBoard.cs">
+    <Compile Include="Dashboards\Home Owner\Button\HomeButtonHO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\Button\HomeButtonHO.Designer.cs">
+      <DependentUpon>HomeButtonHO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboards\Home Owner\HODB2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\HODashBoard.Designer.cs">
-      <DependentUpon>HODashBoard.cs</DependentUpon>
+    <Compile Include="Dashboards\Home Owner\HODB2.Designer.cs">
+      <DependentUpon>HODB2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\HomeButton.cs">
+    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButtonSA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Home Owner\Button\HomeButton.Designer.cs">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButtonSA.Designer.cs">
+      <DependentUpon>ActivityButtonSA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButton.cs">
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeButtonSA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\ActivityButton.Designer.cs">
-      <DependentUpon>ActivityButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Super Admin\Buttons\HomeButtonSA.Designer.cs">
+      <DependentUpon>HomeButtonSA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\HomeButton.cs">
+    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButtonSA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\HomeButton.Designer.cs">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButtonSA.Designer.cs">
+      <DependentUpon>MAdminButtonSA.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButton.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Dashboards\Super Admin\Buttons\MAdminButton.Designer.cs">
-      <DependentUpon>MAdminButton.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboards\Super Admin\SuperAdminDashBoard.cs">
+    <Compile Include="Dashboards\Super Admin\SuperAdminDB2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboards\Super Admin\SuperAdminDashBoard.Designer.cs">
-      <DependentUpon>SuperAdminDashBoard.cs</DependentUpon>
+    <Compile Include="Dashboards\Super Admin\SuperAdminDB2.Designer.cs">
+      <DependentUpon>SuperAdminDB2.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Main Page\LoginPage.cs">
@@ -180,59 +174,56 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Dashboards\Admin\AdminDashBoard.resx">
-      <DependentUpon>AdminDashBoard.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboards\Admin\AdminDB2.resx">
       <DependentUpon>AdminDB2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\AccountButton.resx">
-      <DependentUpon>AccountButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\AccountsButtonA.resx">
+      <DependentUpon>AccountsButtonA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\AnnouncementButton.resx">
-      <DependentUpon>AnnouncementButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\AnnouncementButtonA.resx">
+      <DependentUpon>AnnouncementButtonA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\HomeButton.resx">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\HomeButtonA.resx">
+      <DependentUpon>HomeButtonA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\HomeownersButton.resx">
-      <DependentUpon>HomeownersButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\HomeownersButtonSA.resx">
+      <DependentUpon>HomeownersButtonSA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\PaymentsButton.resx">
-      <DependentUpon>PaymentsButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\PaymentsButtonA.resx">
+      <DependentUpon>PaymentsButtonA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Admin\Buttons\ReportsButton.resx">
-      <DependentUpon>ReportsButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Admin\Buttons\ReportsButtonA.resx">
+      <DependentUpon>ReportsButtonA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\Button\AccountButton.resx">
-      <DependentUpon>AccountButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\AccountButtonHO.resx">
+      <DependentUpon>AccountButtonHO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\Button\HistoryButton.resx">
-      <DependentUpon>HistoryButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\HistoryButtonHO.resx">
+      <DependentUpon>HistoryButtonHO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\Button\PayButton.resx">
-      <DependentUpon>PayButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\PayButtonHO.resx">
+      <DependentUpon>PayButtonHO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\Button\ReportButton.resx">
-      <DependentUpon>ReportButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\ReportButtonHO.resx">
+      <DependentUpon>ReportButtonHO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\HODashBoard.resx">
-      <DependentUpon>HODashBoard.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\Button\HomeButtonHO.resx">
+      <DependentUpon>HomeButtonHO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Home Owner\Button\HomeButton.resx">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Home Owner\HODB2.resx">
+      <DependentUpon>HODB2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\ActivityButton.resx">
-      <DependentUpon>ActivityButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\ActivityButtonSA.resx">
+      <DependentUpon>ActivityButtonSA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\HomeButton.resx">
-      <DependentUpon>HomeButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\HomeButtonSA.resx">
+      <DependentUpon>HomeButtonSA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\MAdminButton.resx">
-      <DependentUpon>MAdminButton.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Super Admin\Buttons\MAdminButtonSA.resx">
+      <DependentUpon>MAdminButtonSA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboards\Super Admin\SuperAdminDashBoard.resx">
-      <DependentUpon>SuperAdminDashBoard.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboards\Super Admin\SuperAdminDB2.resx">
+      <DependentUpon>SuperAdminDB2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Page\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
@@ -323,6 +314,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Guna_dll\Guna.UI2.dll" />
+    <None Include="Resources\White_admin %281%29.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\White_file.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\White_user %281%29.png" />
+    <None Include="Resources\White_report.png" />
+    <None Include="Resources\White_messenger.png" />
+    <None Include="Resources\White_logout %281%29.png" />
+    <None Include="Resources\White_home %281%29.png" />
+    <None Include="Resources\White_folder %282%29.png" />
+    <None Include="Resources\White_email %281%29.png" />
+    <None Include="Resources\White_dashboard %281%29.png" />
+    <None Include="Resources\White_credit-card %281%29.png" />
+    <None Include="Resources\White_back.png" />
+    <None Include="Resources\White_avatar.png" />
+    <None Include="Resources\White_announcement.png" />
+    <None Include="Resources\White_activity.png" />
+    <None Include="Resources\Logo_Bg3.png" />
     <None Include="Resources\Logo_Bg2.png" />
     <None Include="Resources\Logo_Bg.png" />
     <None Include="Resources\Background_Blurred.jpg" />
