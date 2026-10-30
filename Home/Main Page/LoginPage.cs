@@ -28,12 +28,6 @@ namespace Home.Main_Page
             this.MinimumSize = new Size(800, 450);
 
 
-
-
-
-
-
-
             SA2.Show();
             newowner.Show();
 
@@ -45,26 +39,30 @@ namespace Home.Main_Page
             ShowContentpnl.Controls.Add(welcomeShow);
             ShowContentpnl.Controls.Add(loginshow);
 
-            welcomeShow.Visible = true;
-            loginshow.Visible = false;
+            welcomeShow.Visible = false;
+            loginshow.Visible = true;
 
-            welcomeShow.LoginClicked += (s, e) =>
+            welcomeShow.AdminClicked += (s, e) =>
+            {
+                welcomeShow.Visible = false;
+                adminDB2.Visible = true;
+            };
+            welcomeShow.HomeownerClicked += (s, e) =>
+            {
+                welcomeShow.Visible = false;
+                newowner.Visible = true;
+            };
+
+
+            loginshow.LoginMainClicked += (s, e) =>
+            {
+
+            };
+
+            welcomeShow.BackClicked += (s, e) =>
             {
                 welcomeShow.Visible = false;
                 loginshow.Visible = true;
-            };
-            welcomeShow.ExitClicked += (s, e) =>
-            {
-                Application.Exit();
-            };
-            loginshow.LoginMainClicked += (s, e) =>
-            {
-                MessageBox.Show("Login successful! Proceeding to the main application.");
-            };
-            loginshow.BackClicked += (s, e) =>
-            {
-                loginshow.Visible = false;
-                welcomeShow.Visible = true;
             };
 
         }

@@ -12,11 +12,19 @@ namespace Home.Main_Page
 {
     public partial class LoginShow : UserControl
     {
+        private LoginPage LoginPage = new LoginPage();
+        private WelcomeShow welcomeShow = new WelcomeShow();
+
         public event EventHandler LoginMainClicked;
-        public event EventHandler BackClicked;
+
         public LoginShow()
         {
             InitializeComponent();
+            if (TxtPassword.Text == "SuperAdmin" || TxtUsername.Text == "SuperAdmin")
+            {
+                LoginMainClicked?.Invoke(this, EventArgs.Empty);
+                LoginPage.Close();
+            }
         }
 
         private void LoginMainBtn_Click(object sender, EventArgs e)
@@ -24,9 +32,6 @@ namespace Home.Main_Page
             LoginMainClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void BackBtn_Click(object sender, EventArgs e)
-        {
-            BackClicked?.Invoke(this, EventArgs.Empty);
-        }
+
     }
 }

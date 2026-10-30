@@ -12,23 +12,31 @@ namespace Home.Main_Page
 {
     public partial class WelcomeShow : UserControl
     {
-        public event EventHandler LoginClicked;
-        public event EventHandler ExitClicked;
+        public event EventHandler AdminClicked;
+        public event EventHandler HomeownerClicked;
+        public event EventHandler BackClicked;
         public WelcomeShow()
         {
             InitializeComponent();
+            HomeOwnerBtn.Text = "Home Owner\nPay fees, send reports, view history";
+            AdminBtn.Text = "Admin\nManage reports, payments and announcements";
         }
 
-        private void LoginBtn_Click(object sender, EventArgs e)
+
+        private void HomeOwnerBtn_Click(object sender, EventArgs e)
         {
-            LoginClicked?.Invoke(this, EventArgs.Empty);
+            HomeownerClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        private void ExitBtn_Click(object sender, EventArgs e)
+        private void AdminBtn_Click(object sender, EventArgs e)
         {
-            ExitClicked?.Invoke(this, EventArgs.Empty);
+            AdminClicked?.Invoke(this, EventArgs.Empty);
         }
 
+        private void BackLoginBtn_Click(object sender, EventArgs e)
+        {
+            BackClicked?.Invoke(this, EventArgs.Empty);
+        }
     }
 }
 

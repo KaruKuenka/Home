@@ -51,7 +51,7 @@
             this.ShowContentpnl.Name = "ShowContentpnl";
             this.ShowContentpnl.Padding = new System.Windows.Forms.Padding(10);
             this.ShowContentpnl.ShadowDecoration.Parent = this.ShowContentpnl;
-            this.ShowContentpnl.Size = new System.Drawing.Size(248, 450);
+            this.ShowContentpnl.Size = new System.Drawing.Size(320, 550);
             this.ShowContentpnl.TabIndex = 1;
             this.ShowContentpnl.UseTransparentBackground = true;
             // 
@@ -61,7 +61,7 @@
             this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::Home.Properties.Resources.Logo_Bg3;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(296, 120);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(376, 192);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
@@ -78,7 +78,7 @@
             this.BGpic.Location = new System.Drawing.Point(0, 0);
             this.BGpic.Name = "BGpic";
             this.BGpic.ShadowDecoration.Parent = this.BGpic;
-            this.BGpic.Size = new System.Drawing.Size(800, 450);
+            this.BGpic.Size = new System.Drawing.Size(900, 550);
             this.BGpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BGpic.TabIndex = 0;
             this.BGpic.TabStop = false;
@@ -94,10 +94,10 @@
             this.InviHeaderPnl.Controls.Add(this.guna2ControlBox2);
             this.InviHeaderPnl.Controls.Add(this.guna2ControlBox1);
             this.InviHeaderPnl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.InviHeaderPnl.Location = new System.Drawing.Point(248, 0);
+            this.InviHeaderPnl.Location = new System.Drawing.Point(320, 0);
             this.InviHeaderPnl.Name = "InviHeaderPnl";
             this.InviHeaderPnl.ShadowDecoration.Parent = this.InviHeaderPnl;
-            this.InviHeaderPnl.Size = new System.Drawing.Size(552, 40);
+            this.InviHeaderPnl.Size = new System.Drawing.Size(580, 40);
             this.InviHeaderPnl.TabIndex = 3;
             this.InviHeaderPnl.UseTransparentBackground = true;
             // 
@@ -113,7 +113,7 @@
             this.guna2ControlBox3.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox3.HoverState.Parent = this.guna2ControlBox3;
             this.guna2ControlBox3.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(440, 8);
+            this.guna2ControlBox3.Location = new System.Drawing.Point(468, 8);
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
             this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
@@ -132,7 +132,7 @@
             this.guna2ControlBox2.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(384, 8);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(412, 8);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
@@ -150,7 +150,7 @@
             this.guna2ControlBox1.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(496, 8);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(524, 8);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 550);
             this.Controls.Add(this.InviHeaderPnl);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.ShowContentpnl);

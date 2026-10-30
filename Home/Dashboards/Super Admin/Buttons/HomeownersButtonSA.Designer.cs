@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.FullNametxtBx = new Guna.UI2.WinForms.Guna2TextBox();
             this.AddressTxtBx = new Guna.UI2.WinForms.Guna2TextBox();
             this.UsernameTxtBx = new Guna.UI2.WinForms.Guna2TextBox();
@@ -48,21 +47,13 @@
             this.HOListDG = new Guna.UI2.WinForms.Guna2DataGridView();
             this.DelAccBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.HOAPosCreateCB = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HOListDG)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 16);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(210, 26);
-            this.guna2HtmlLabel1.TabIndex = 6;
-            this.guna2HtmlLabel1.Text = "Homeowner Accounts";
             // 
             // FullNametxtBx
             // 
@@ -169,15 +160,15 @@
             this.CreateAccBtn.BorderRadius = 10;
             this.CreateAccBtn.CheckedState.Parent = this.CreateAccBtn;
             this.CreateAccBtn.CustomImages.Parent = this.CreateAccBtn;
-            this.CreateAccBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
-            this.CreateAccBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
-            this.CreateAccBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateAccBtn.ForeColor = System.Drawing.Color.Black;
+            this.CreateAccBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
+            this.CreateAccBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(88)))), ((int)(((byte)(114)))));
+            this.CreateAccBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateAccBtn.ForeColor = System.Drawing.Color.White;
             this.CreateAccBtn.HoverState.Parent = this.CreateAccBtn;
-            this.CreateAccBtn.Location = new System.Drawing.Point(24, 344);
+            this.CreateAccBtn.Location = new System.Drawing.Point(24, 424);
             this.CreateAccBtn.Name = "CreateAccBtn";
             this.CreateAccBtn.ShadowDecoration.Parent = this.CreateAccBtn;
-            this.CreateAccBtn.Size = new System.Drawing.Size(96, 33);
+            this.CreateAccBtn.Size = new System.Drawing.Size(140, 40);
             this.CreateAccBtn.TabIndex = 9;
             this.CreateAccBtn.Text = "Create Account";
             // 
@@ -185,6 +176,8 @@
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 15;
+            this.guna2GradientPanel1.Controls.Add(this.HOAPosCreateCB);
+            this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2GradientPanel1.Controls.Add(this.CreateAccBtn);
             this.guna2GradientPanel1.Controls.Add(this.TempPassTxtBx);
             this.guna2GradientPanel1.Controls.Add(this.UsernameTxtBx);
@@ -195,12 +188,12 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel5);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(24, 56);
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(64, 56);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(300, 400);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(300, 480);
             this.guna2GradientPanel1.TabIndex = 4;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
@@ -230,9 +223,9 @@
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(24, 128);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(159, 18);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(65, 18);
             this.guna2HtmlLabel5.TabIndex = 2;
-            this.guna2HtmlLabel5.Text = "Block / Lot / (set by admin)";
+            this.guna2HtmlLabel5.Text = "Block / Lot ";
             // 
             // guna2HtmlLabel4
             // 
@@ -261,41 +254,41 @@
             this.guna2GradientPanel2.Controls.Add(this.HOListDG);
             this.guna2GradientPanel2.Controls.Add(this.DelAccBtn);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel11);
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(336, 56);
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(376, 56);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(456, 400);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(456, 480);
             this.guna2GradientPanel2.TabIndex = 10;
             this.guna2GradientPanel2.UseTransparentBackground = true;
             // 
             // HOListDG
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.HOListDG.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.HOListDG.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.HOListDG.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.HOListDG.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.HOListDG.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.HOListDG.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.HOListDG.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.HOListDG.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.HOListDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.HOListDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.HOListDG.ColumnHeadersHeight = 4;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.HOListDG.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.HOListDG.DefaultCellStyle = dataGridViewCellStyle9;
             this.HOListDG.EnableHeadersVisualStyles = false;
             this.HOListDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.HOListDG.Location = new System.Drawing.Point(16, 48);
@@ -311,7 +304,7 @@
             this.HOListDG.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.HOListDG.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.HOListDG.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.HOListDG.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.HOListDG.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.HOListDG.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.HOListDG.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.HOListDG.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -331,17 +324,18 @@
             // DelAccBtn
             // 
             this.DelAccBtn.BorderRadius = 10;
+            this.DelAccBtn.BorderThickness = 1;
             this.DelAccBtn.CheckedState.Parent = this.DelAccBtn;
             this.DelAccBtn.CustomImages.Parent = this.DelAccBtn;
-            this.DelAccBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
-            this.DelAccBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(207)))), ((int)(((byte)(248)))));
-            this.DelAccBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DelAccBtn.ForeColor = System.Drawing.Color.Black;
+            this.DelAccBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(50)))), ((int)(((byte)(38)))));
+            this.DelAccBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(50)))), ((int)(((byte)(38)))));
+            this.DelAccBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DelAccBtn.ForeColor = System.Drawing.Color.White;
             this.DelAccBtn.HoverState.Parent = this.DelAccBtn;
             this.DelAccBtn.Location = new System.Drawing.Point(16, 256);
             this.DelAccBtn.Name = "DelAccBtn";
             this.DelAccBtn.ShadowDecoration.Parent = this.DelAccBtn;
-            this.DelAccBtn.Size = new System.Drawing.Size(98, 37);
+            this.DelAccBtn.Size = new System.Drawing.Size(140, 40);
             this.DelAccBtn.TabIndex = 9;
             this.DelAccBtn.Text = "Delete Selected";
             // 
@@ -355,10 +349,41 @@
             this.guna2HtmlLabel11.TabIndex = 0;
             this.guna2HtmlLabel11.Text = "Registered Homeowners";
             // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 344);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(83, 18);
+            this.guna2HtmlLabel1.TabIndex = 10;
+            this.guna2HtmlLabel1.Text = "HOA Position";
+            // 
+            // HOAPosCreateCB
+            // 
+            this.HOAPosCreateCB.BackColor = System.Drawing.Color.Transparent;
+            this.HOAPosCreateCB.BorderColor = System.Drawing.Color.Black;
+            this.HOAPosCreateCB.BorderRadius = 10;
+            this.HOAPosCreateCB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.HOAPosCreateCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.HOAPosCreateCB.FocusedColor = System.Drawing.Color.Empty;
+            this.HOAPosCreateCB.FocusedState.Parent = this.HOAPosCreateCB;
+            this.HOAPosCreateCB.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.HOAPosCreateCB.ForeColor = System.Drawing.Color.Black;
+            this.HOAPosCreateCB.FormattingEnabled = true;
+            this.HOAPosCreateCB.HoverState.Parent = this.HOAPosCreateCB;
+            this.HOAPosCreateCB.ItemHeight = 30;
+            this.HOAPosCreateCB.ItemsAppearance.Parent = this.HOAPosCreateCB;
+            this.HOAPosCreateCB.Location = new System.Drawing.Point(24, 368);
+            this.HOAPosCreateCB.Name = "HOAPosCreateCB";
+            this.HOAPosCreateCB.ShadowDecoration.Parent = this.HOAPosCreateCB;
+            this.HOAPosCreateCB.Size = new System.Drawing.Size(256, 36);
+            this.HOAPosCreateCB.TabIndex = 11;
+            // 
             // guna2Elipse1
             // 
-            this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this;
+            this.guna2Elipse1.BorderRadius = 8;
+            this.guna2Elipse1.TargetControl = this.HOListDG;
             // 
             // HomeownersButtonSA
             // 
@@ -367,7 +392,6 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Controls.Add(this.guna2GradientPanel2);
-            this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "HomeownersButtonSA";
             this.Size = new System.Drawing.Size(900, 616);
@@ -377,12 +401,10 @@
             this.guna2GradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.HOListDG)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2TextBox FullNametxtBx;
         private Guna.UI2.WinForms.Guna2TextBox AddressTxtBx;
         private Guna.UI2.WinForms.Guna2TextBox UsernameTxtBx;
@@ -398,6 +420,8 @@
         private Guna.UI2.WinForms.Guna2DataGridView HOListDG;
         private Guna.UI2.WinForms.Guna2GradientButton DelAccBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2ComboBox HOAPosCreateCB;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }
