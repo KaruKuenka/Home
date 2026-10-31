@@ -1,6 +1,7 @@
 ﻿using Home.Dashboards.Admin;
 using Home.Dashboards.Home_Owner;
 using Home.Dashboards.Super_Admin;
+using Home.Main_Page.Helper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,56 +16,62 @@ namespace Home.Main_Page
 {
     public partial class LoginPage : Form
     {
-        private WelcomeShow welcomeShow = new WelcomeShow();
-        private LoginShow loginshow = new LoginShow();
-        private SuperAdminDB2 SA2 = new SuperAdminDB2();
-        private HODB2 newowner = new HODB2();
-
-        private AdminDB2 adminDB2 = new AdminDB2();
+        private readonly LoginShow loginPage = new LoginShow();
+        private readonly WelcomeShow rolePage = new WelcomeShow();
+        private LoginResult pending;
 
         public LoginPage()
         {
             InitializeComponent();
-            this.MinimumSize = new Size(800, 450);
 
+            loginPage.LoginCompleted += OnLoginCompleted;
+            rolePage.RoleChosen += OnRoleChosen;
+            rolePage.BackClicked += (s, e) => { Session.Clear(); pending = null; loginPage.Reset(); ShowPage(loginPage); };
 
-            SA2.Show();
-            newowner.Show();
-
-            adminDB2.Show();
-
-            welcomeShow.Dock = DockStyle.Fill;
-            loginshow.Dock = DockStyle.Fill;
-
-            ShowContentpnl.Controls.Add(welcomeShow);
-            ShowContentpnl.Controls.Add(loginshow);
-
-            welcomeShow.Visible = false;
-            loginshow.Visible = true;
-
-            welcomeShow.AdminClicked += (s, e) =>
+            ShowPage(loginPage);
+        }
+        private void ShowPage(UserControl page)
+        {
+            ShowContentpnl.Controls.Clear();
+            page.Dock = DockStyle.Fill;
+            ShowContentpnl.Controls.Add(page);
+        }
+        private void OnLoginCompleted(object sender, LoginResult r)
+        {
+            if (r.IsSuperAdmin)
             {
-                welcomeShow.Visible = false;
-                adminDB2.Visible = true;
-            };
-            welcomeShow.HomeownerClicked += (s, e) =>
+                Session.Start(r, "SuperAdmin");
+                OpenDashboard(new SuperAdminDB2());
+            }
+            else if (r.IsOfficer)
             {
-                welcomeShow.Visible = false;
-                newowner.Visible = true;
-            };
-
-
-            loginshow.LoginMainClicked += (s, e) =>
+                pending = r;
+                rolePage.Setup(r);
+                ShowPage(rolePage);              // let them choose
+            }
+            else
             {
-
-            };
-
-            welcomeShow.BackClicked += (s, e) =>
+                Session.Start(r, "HomeOwner");
+                OpenDashboard(new HODB2());
+            }
+        }
+        private void OnRoleChosen(object sender, string role)
+        {
+            Session.Start(pending, role);
+            OpenDashboard(role == "Admin" ? (Form)new AdminDB2() : new HODB2());
+        }
+        private void OpenDashboard(Form dashboard)
+        {
+            dashboard.FormClosed += (s, e) =>
             {
-                welcomeShow.Visible = false;
-                loginshow.Visible = true;
+                Session.Clear();
+                pending = null;
+                loginPage.Reset();
+                ShowPage(loginPage);
+                this.Show();                     // back to the login screen
             };
-
+            this.Hide();
+            dashboard.Show();
         }
     }
 }

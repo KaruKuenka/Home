@@ -37,6 +37,7 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.ErrorLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // LoginMainBtn
@@ -50,10 +51,10 @@
             this.LoginMainBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginMainBtn.ForeColor = System.Drawing.Color.White;
             this.LoginMainBtn.HoverState.Parent = this.LoginMainBtn;
-            this.LoginMainBtn.Location = new System.Drawing.Point(24, 336);
+            this.LoginMainBtn.Location = new System.Drawing.Point(24, 344);
             this.LoginMainBtn.Name = "LoginMainBtn";
             this.LoginMainBtn.ShadowDecoration.Parent = this.LoginMainBtn;
-            this.LoginMainBtn.Size = new System.Drawing.Size(272, 40);
+            this.LoginMainBtn.Size = new System.Drawing.Size(248, 40);
             this.LoginMainBtn.TabIndex = 3;
             this.LoginMainBtn.Text = "Login";
             this.LoginMainBtn.UseTransparentBackground = true;
@@ -82,7 +83,7 @@
             this.TxtUsername.PlaceholderText = "";
             this.TxtUsername.SelectedText = "";
             this.TxtUsername.ShadowDecoration.Parent = this.TxtUsername;
-            this.TxtUsername.Size = new System.Drawing.Size(270, 36);
+            this.TxtUsername.Size = new System.Drawing.Size(246, 36);
             this.TxtUsername.TabIndex = 5;
             // 
             // TxtPassword
@@ -108,7 +109,7 @@
             this.TxtPassword.PlaceholderText = "";
             this.TxtPassword.SelectedText = "";
             this.TxtPassword.ShadowDecoration.Parent = this.TxtPassword;
-            this.TxtPassword.Size = new System.Drawing.Size(270, 36);
+            this.TxtPassword.Size = new System.Drawing.Size(246, 36);
             this.TxtPassword.TabIndex = 6;
             // 
             // guna2HtmlLabel1
@@ -156,11 +157,23 @@
             this.guna2HtmlLabel4.TabIndex = 10;
             this.guna2HtmlLabel4.Text = "Sign in to continue";
             // 
+            // ErrorLbl
+            // 
+            this.ErrorLbl.BackColor = System.Drawing.Color.Transparent;
+            this.ErrorLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ErrorLbl.ForeColor = System.Drawing.Color.DarkRed;
+            this.ErrorLbl.Location = new System.Drawing.Point(28, 320);
+            this.ErrorLbl.Name = "ErrorLbl";
+            this.ErrorLbl.Size = new System.Drawing.Size(3, 2);
+            this.ErrorLbl.TabIndex = 11;
+            this.ErrorLbl.Text = null;
+            // 
             // LoginShow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Controls.Add(this.ErrorLbl);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel2);
@@ -184,5 +197,6 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel ErrorLbl;
     }
 }

@@ -1,4 +1,6 @@
-﻿using Home.Dashboards.Admin.Buttons;
+﻿using Guna.UI2.WinForms;
+using Home.Dashboards.Admin.Buttons;
+using Home.Main_Page.Helper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +10,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Guna.UI2.WinForms;
 
 namespace Home.Dashboards.Admin
 {
@@ -23,9 +24,14 @@ namespace Home.Dashboards.Admin
         public AdminDB2()
         {
             InitializeComponent();
+            this.Load += AdminDB2_Load;
+
+        }
+        private void AdminDB2_Load(object sender, EventArgs e)
+        {
+            if (Session.Role != "Admin") { Close(); return; }
             LoadPage(HomePage, "Home");
             Highlight(HomeBtn);
-
         }
 
         private void LoadPage(UserControl page, string title)
@@ -69,7 +75,9 @@ namespace Home.Dashboards.Admin
         }
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
+
+
     }
 }

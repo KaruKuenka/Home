@@ -392,6 +392,7 @@
             this.Name = "AdminDB2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminDB2";
+            this.Load += new System.EventHandler(this.AdminDB2_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.HeaderPanel.ResumeLayout(false);
             this.HeaderPanel.PerformLayout();

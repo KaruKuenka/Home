@@ -51,7 +51,7 @@
             this.AdminBtn.Location = new System.Drawing.Point(24, 224);
             this.AdminBtn.Name = "AdminBtn";
             this.AdminBtn.ShadowDecoration.Parent = this.AdminBtn;
-            this.AdminBtn.Size = new System.Drawing.Size(264, 56);
+            this.AdminBtn.Size = new System.Drawing.Size(248, 56);
             this.AdminBtn.TabIndex = 2;
             this.AdminBtn.Text = "Exit";
             this.AdminBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -72,7 +72,7 @@
             this.HomeOwnerBtn.Location = new System.Drawing.Point(24, 152);
             this.HomeOwnerBtn.Name = "HomeOwnerBtn";
             this.HomeOwnerBtn.ShadowDecoration.Parent = this.HomeOwnerBtn;
-            this.HomeOwnerBtn.Size = new System.Drawing.Size(264, 60);
+            this.HomeOwnerBtn.Size = new System.Drawing.Size(248, 60);
             this.HomeOwnerBtn.TabIndex = 3;
             this.HomeOwnerBtn.Text = "Home Owner";
             this.HomeOwnerBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -108,7 +108,7 @@
             this.BackLoginBtn.Location = new System.Drawing.Point(24, 288);
             this.BackLoginBtn.Name = "BackLoginBtn";
             this.BackLoginBtn.ShadowDecoration.Parent = this.BackLoginBtn;
-            this.BackLoginBtn.Size = new System.Drawing.Size(264, 40);
+            this.BackLoginBtn.Size = new System.Drawing.Size(248, 40);
             this.BackLoginBtn.TabIndex = 5;
             this.BackLoginBtn.Text = "Back To Login";
             this.BackLoginBtn.UseTransparentBackground = true;

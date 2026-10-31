@@ -1,5 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using Home.Dashboards.Home_Owner.Button;
+using Home.Main_Page.Helper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,6 +24,11 @@ namespace Home.Dashboards.Home_Owner
         public HODB2()
         {
             InitializeComponent();
+            this.Load += HODB2_Load;
+        }
+        private void HODB2_Load(object sender, EventArgs e)
+        {
+            if (Session.Role != "HomeOwner") { Close(); return; }
             LoadPage(Homepage, "Home");
             Highlight(HomeBtn);
         }
@@ -76,7 +82,9 @@ namespace Home.Dashboards.Home_Owner
 
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
+
+
     }
 }

@@ -364,6 +364,7 @@
             this.Name = "SuperAdminDB2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SuperAdminDO2";
+            this.Load += new System.EventHandler(this.SuperAdminDB2_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.HeaderPanel.ResumeLayout(false);
             this.HeaderPanel.PerformLayout();

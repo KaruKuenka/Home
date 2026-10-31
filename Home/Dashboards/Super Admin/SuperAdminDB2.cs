@@ -1,6 +1,7 @@
 ﻿using Guna.UI2.WinForms;
 using Home.Dashboards.Admin.Buttons;
 using Home.Dashboards.Super_Admin.Buttons;
+using Home.Main_Page.Helper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,6 +24,13 @@ namespace Home.Dashboards.Super_Admin
         public SuperAdminDB2()
         {
             InitializeComponent();
+            this.Load += SuperAdminDB2_Load;
+
+        }
+
+        private void SuperAdminDB2_Load(object sender, EventArgs e)
+        {
+            if (Session.Role != "SuperAdmin") { Close(); return; }
             LoadPage(Homebut, "Home");
             Highlight(HomeBtn);
         }
@@ -65,7 +73,9 @@ namespace Home.Dashboards.Super_Admin
 
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
+
+
     }
 }

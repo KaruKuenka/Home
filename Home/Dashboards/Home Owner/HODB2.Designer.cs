@@ -392,6 +392,7 @@
             this.Name = "HODB2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HODB2";
+            this.Load += new System.EventHandler(this.HODB2_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.HeaderPanel.ResumeLayout(false);
             this.HeaderPanel.PerformLayout();
